@@ -1,0 +1,2891 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<IFCTypeMappingItemList ClassificationSystemEditionVersion="v 2.0" ClassificationSystemName="Clasificación de Archicad" Direction="Export" IfcSchemaFilter="IFC4">
+	<ClassificationSystemIFCType IFCObject="IfcBuildingElementProxy" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcBuildingElementProxyType" IFCTypeObjectPredefinedType="NOTDEFINED">
+	</ClassificationSystemIFCType>
+	<UnClassifiedElementIFCType IFCObject="IfcBuildingElementProxy" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcBuildingElementProxyType" IFCTypeObjectPredefinedType="NOTDEFINED">
+	</UnClassifiedElementIFCType>
+	<MappingItem>
+		<ClassificationItem Id="Forma"/>
+		<IFCType IFCObject="IfcBuildingElementProxy" IFCObjectPredefinedType="USERDEFINED" IFCObjectUserDefinedType="Morph" IFCTypeObject="IfcBuildingElementProxyType" IFCTypeObjectPredefinedType="USERDEFINED" IFCTypeObjectUserDefinedType="Morph"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Sustituto de Elemento Constructivo"/>
+		<IFCType IFCObject="IfcBuildingElementProxy" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcBuildingElementProxyType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Sustituto de Elemento Constructivo Complejo"/>
+		<IFCType IFCObject="IfcBuildingElementProxy" IFCObjectPredefinedType="COMPLEX" IFCTypeObject="IfcBuildingElementProxyType" IFCTypeObjectPredefinedType="COMPLEX"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Sustituto de Elemento de Construcción Elemento"/>
+		<IFCType IFCObject="IfcBuildingElementProxy" IFCObjectPredefinedType="ELEMENT" IFCTypeObject="IfcBuildingElementProxyType" IFCTypeObjectPredefinedType="ELEMENT"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Sustituto de Elemento Constructivo Parcial"/>
+		<IFCType IFCObject="IfcBuildingElementProxy" IFCObjectPredefinedType="PARTIAL" IFCTypeObject="IfcBuildingElementProxyType" IFCTypeObjectPredefinedType="PARTIAL"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Previsión Espacial"/>
+		<IFCType IFCObject="IfcBuildingElementProxy" IFCObjectPredefinedType="PROVISIONFORSPACE" IFCTypeObject="IfcBuildingElementProxyType" IFCTypeObjectPredefinedType="PROVISIONFORSPACE"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Previsión para Hueco"/>
+		<IFCType IFCObject="IfcBuildingElementProxy" IFCObjectPredefinedType="PROVISIONFORVOID" IFCTypeObject="IfcBuildingElementProxyType" IFCTypeObjectPredefinedType="PROVISIONFORVOID"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Muro"/>
+		<IFCType IFCObject="IfcWall" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcWallType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Muro Practicable"/>
+		<IFCType IFCObject="IfcWall" IFCObjectPredefinedType="MOVABLE" IFCTypeObject="IfcWallType" IFCTypeObjectPredefinedType="MOVABLE"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Muro Parapeto"/>
+		<IFCType IFCObject="IfcWall" IFCObjectPredefinedType="PARAPET" IFCTypeObject="IfcWallType" IFCTypeObjectPredefinedType="PARAPET"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Muro Divisorio"/>
+		<IFCType IFCObject="IfcWall" IFCObjectPredefinedType="PARTITIONING" IFCTypeObject="IfcWallType" IFCTypeObjectPredefinedType="PARTITIONING"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Muro de Fontanería"/>
+		<IFCType IFCObject="IfcWall" IFCObjectPredefinedType="PLUMBINGWALL" IFCTypeObject="IfcWallType" IFCTypeObjectPredefinedType="PLUMBINGWALL"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Muro Poligonal"/>
+		<IFCType IFCObject="IfcWall" IFCObjectPredefinedType="POLYGONAL" IFCTypeObject="IfcWallType" IFCTypeObjectPredefinedType="POLYGONAL"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Muro de Corte"/>
+		<IFCType IFCObject="IfcWall" IFCObjectPredefinedType="SHEAR" IFCTypeObject="IfcWallType" IFCTypeObjectPredefinedType="SHEAR"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Muro Sólido"/>
+		<IFCType IFCObject="IfcWall" IFCObjectPredefinedType="SOLIDWALL" IFCTypeObject="IfcWallType" IFCTypeObjectPredefinedType="SOLIDWALL"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Muro Estándar"/>
+		<IFCType IFCObject="IfcWall" IFCObjectPredefinedType="STANDARD" IFCTypeObject="IfcWallType" IFCTypeObjectPredefinedType="STANDARD"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Cimentación"/>
+		<IFCType IFCObject="IfcFooting" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcFootingType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Zapata Cimentación"/>
+		<IFCType IFCObject="IfcFooting" IFCObjectPredefinedType="CAISSON_FOUNDATION" IFCTypeObject="IfcFootingType" IFCTypeObjectPredefinedType="CAISSON_FOUNDATION"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Viga Cimientos"/>
+		<IFCType IFCObject="IfcFooting" IFCObjectPredefinedType="FOOTING_BEAM" IFCTypeObject="IfcFootingType" IFCTypeObjectPredefinedType="FOOTING_BEAM"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Zapata de Apoyo"/>
+		<IFCType IFCObject="IfcFooting" IFCObjectPredefinedType="PAD_FOOTING" IFCTypeObject="IfcFootingType" IFCTypeObjectPredefinedType="PAD_FOOTING"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Encepado de Pilotes"/>
+		<IFCType IFCObject="IfcFooting" IFCObjectPredefinedType="PILE_CAP" IFCTypeObject="IfcFootingType" IFCTypeObjectPredefinedType="PILE_CAP"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Zapata"/>
+		<IFCType IFCObject="IfcFooting" IFCObjectPredefinedType="STRIP_FOOTING" IFCTypeObject="IfcFootingType" IFCTypeObjectPredefinedType="STRIP_FOOTING"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Pilar"/>
+		<IFCType IFCObject="IfcColumn" IFCObjectPredefinedType="COLUMN" IFCTypeObject="IfcColumnType" IFCTypeObjectPredefinedType="COLUMN"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Segmento de Pilar"/>
+		<IFCType IFCObject="IfcColumn" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcColumnType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Pilastra"/>
+		<IFCType IFCObject="IfcColumn" IFCObjectPredefinedType="PILASTER" IFCTypeObject="IfcColumnType" IFCTypeObjectPredefinedType="PILASTER"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Pilote"/>
+		<IFCType IFCObject="IfcPile" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcPileType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Perforadora de Pozos"/>
+		<IFCType IFCObject="IfcPile" IFCObjectPredefinedType="BORED" IFCTypeObject="IfcPileType" IFCTypeObjectPredefinedType="BORED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Pilote de Cohesión"/>
+		<IFCType IFCObject="IfcPile" IFCObjectPredefinedType="COHESION" IFCTypeObject="IfcPileType" IFCTypeObjectPredefinedType="COHESION"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Pilote Conducido"/>
+		<IFCType IFCObject="IfcPile" IFCObjectPredefinedType="DRIVEN" IFCTypeObject="IfcPileType" IFCTypeObjectPredefinedType="DRIVEN"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Pilote de Fricción"/>
+		<IFCType IFCObject="IfcPile" IFCObjectPredefinedType="FRICTION" IFCTypeObject="IfcPileType" IFCTypeObjectPredefinedType="FRICTION"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Pilote JetGrouting"/>
+		<IFCType IFCObject="IfcPile" IFCObjectPredefinedType="JETGROUTING" IFCTypeObject="IfcPileType" IFCTypeObjectPredefinedType="JETGROUTING"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Pilote de Soporte"/>
+		<IFCType IFCObject="IfcPile" IFCObjectPredefinedType="SUPPORT" IFCTypeObject="IfcPileType" IFCTypeObjectPredefinedType="SUPPORT"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Viga"/>
+		<IFCType IFCObject="IfcBeam" IFCObjectPredefinedType="BEAM" IFCTypeObject="IfcBeamType" IFCTypeObjectPredefinedType="BEAM"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Segmento de Viga"/>
+		<IFCType IFCObject="IfcBeam" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcBeamType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Vigueta"/>
+		<IFCType IFCObject="IfcBeam" IFCObjectPredefinedType="JOIST" IFCTypeObject="IfcBeamType" IFCTypeObjectPredefinedType="JOIST"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Núcleo Hueco"/>
+		<IFCType IFCObject="IfcBeam" IFCObjectPredefinedType="HOLLOWCORE" IFCTypeObject="IfcBeamType" IFCTypeObjectPredefinedType="HOLLOWCORE"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Dintel"/>
+		<IFCType IFCObject="IfcBeam" IFCObjectPredefinedType="LINTEL" IFCTypeObject="IfcBeamType" IFCTypeObjectPredefinedType="LINTEL"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Spandrel"/>
+		<IFCType IFCObject="IfcBeam" IFCObjectPredefinedType="SPANDREL" IFCTypeObject="IfcBeamType" IFCTypeObjectPredefinedType="SPANDREL"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Viga T"/>
+		<IFCType IFCObject="IfcBeam" IFCObjectPredefinedType="T_BEAM" IFCTypeObject="IfcBeamType" IFCTypeObjectPredefinedType="T_BEAM"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Forjado"/>
+		<IFCType IFCObject="IfcSlab" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcSlabType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Forjado de Pavimento"/>
+		<IFCType IFCObject="IfcSlab" IFCObjectPredefinedType="FLOOR" IFCTypeObject="IfcSlabType" IFCTypeObjectPredefinedType="FLOOR"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Forjado de Cubierta"/>
+		<IFCType IFCObject="IfcSlab" IFCObjectPredefinedType="ROOF" IFCTypeObject="IfcSlabType" IFCTypeObjectPredefinedType="ROOF"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Forjado de Entrega"/>
+		<IFCType IFCObject="IfcSlab" IFCObjectPredefinedType="LANDING" IFCTypeObject="IfcSlabType" IFCTypeObjectPredefinedType="LANDING"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Losa Base"/>
+		<IFCType IFCObject="IfcSlab" IFCObjectPredefinedType="BASESLAB" IFCTypeObject="IfcSlabType" IFCTypeObjectPredefinedType="BASESLAB"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Cubierta"/>
+		<IFCType IFCObject="IfcRoof" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcRoofType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Cubierta plana"/>
+		<IFCType IFCObject="IfcRoof" IFCObjectPredefinedType="FLAT_ROOF" IFCTypeObject="IfcRoofType" IFCTypeObjectPredefinedType="FLAT_ROOF"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Cubierta de Cobertizo"/>
+		<IFCType IFCObject="IfcRoof" IFCObjectPredefinedType="SHED_ROOF" IFCTypeObject="IfcRoofType" IFCTypeObjectPredefinedType="SHED_ROOF"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Cubierta a Dos Aguas"/>
+		<IFCType IFCObject="IfcRoof" IFCObjectPredefinedType="GABLE_ROOF" IFCTypeObject="IfcRoofType" IFCTypeObjectPredefinedType="GABLE_ROOF"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Cubierta a Cuatro Aguas"/>
+		<IFCType IFCObject="IfcRoof" IFCObjectPredefinedType="HIP_ROOF" IFCTypeObject="IfcRoofType" IFCTypeObjectPredefinedType="HIP_ROOF"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Cubierta de Semicopete"/>
+		<IFCType IFCObject="IfcRoof" IFCObjectPredefinedType="HIPPED_GABLE_ROOF" IFCTypeObject="IfcRoofType" IFCTypeObjectPredefinedType="HIPPED_GABLE_ROOF"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Cubierta Gambrel"/>
+		<IFCType IFCObject="IfcRoof" IFCObjectPredefinedType="GAMBREL_ROOF" IFCTypeObject="IfcRoofType" IFCTypeObjectPredefinedType="GAMBREL_ROOF"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Cubierta a la Mansarda"/>
+		<IFCType IFCObject="IfcRoof" IFCObjectPredefinedType="MANSARD_ROOF" IFCTypeObject="IfcRoofType" IFCTypeObjectPredefinedType="MANSARD_ROOF"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Cubierta en Arco"/>
+		<IFCType IFCObject="IfcRoof" IFCObjectPredefinedType="BARREL_ROOF" IFCTypeObject="IfcRoofType" IFCTypeObjectPredefinedType="BARREL_ROOF"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Cubierta Curva Apuntada"/>
+		<IFCType IFCObject="IfcRoof" IFCObjectPredefinedType="RAINBOW_ROOF" IFCTypeObject="IfcRoofType" IFCTypeObjectPredefinedType="RAINBOW_ROOF"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Cubierta en Mariposa"/>
+		<IFCType IFCObject="IfcRoof" IFCObjectPredefinedType="BUTTERFLY_ROOF" IFCTypeObject="IfcRoofType" IFCTypeObjectPredefinedType="BUTTERFLY_ROOF"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Cubierta Piramidal"/>
+		<IFCType IFCObject="IfcRoof" IFCObjectPredefinedType="PAVILION_ROOF" IFCTypeObject="IfcRoofType" IFCTypeObjectPredefinedType="PAVILION_ROOF"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Cúpula"/>
+		<IFCType IFCObject="IfcRoof" IFCObjectPredefinedType="DOME_ROOF" IFCTypeObject="IfcRoofType" IFCTypeObjectPredefinedType="DOME_ROOF"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Cubierta de Forma Libre"/>
+		<IFCType IFCObject="IfcRoof" IFCObjectPredefinedType="FREEFORM" IFCTypeObject="IfcRoofType" IFCTypeObjectPredefinedType="FREEFORM"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Estructura Compleja"/>
+		<IFCType IFCObject="IfcSlab" IFCObjectPredefinedType="ROOF" IFCTypeObject="IfcSlabType" IFCTypeObjectPredefinedType="ROOF"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Recubrimiento"/>
+		<IFCType IFCObject="IfcCovering" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcCoveringType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Techo"/>
+		<IFCType IFCObject="IfcCovering" IFCObjectPredefinedType="CEILING" IFCTypeObject="IfcCoveringType" IFCTypeObjectPredefinedType="CEILING"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Revestimiento"/>
+		<IFCType IFCObject="IfcCovering" IFCObjectPredefinedType="CLADDING" IFCTypeObject="IfcCoveringType" IFCTypeObjectPredefinedType="CLADDING"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Suelo"/>
+		<IFCType IFCObject="IfcCovering" IFCObjectPredefinedType="FLOORING" IFCTypeObject="IfcCoveringType" IFCTypeObjectPredefinedType="FLOORING"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Aislamiento"/>
+		<IFCType IFCObject="IfcCovering" IFCObjectPredefinedType="INSULATION" IFCTypeObject="IfcCoveringType" IFCTypeObjectPredefinedType="INSULATION"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Membrana"/>
+		<IFCType IFCObject="IfcCovering" IFCObjectPredefinedType="MEMBRANE" IFCTypeObject="IfcCoveringType" IFCTypeObjectPredefinedType="MEMBRANE"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Moldura"/>
+		<IFCType IFCObject="IfcCovering" IFCObjectPredefinedType="MOLDING" IFCTypeObject="IfcCoveringType" IFCTypeObjectPredefinedType="MOLDING"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Techumbre"/>
+		<IFCType IFCObject="IfcCovering" IFCObjectPredefinedType="ROOFING" IFCTypeObject="IfcCoveringType" IFCTypeObjectPredefinedType="ROOFING"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Manguito"/>
+		<IFCType IFCObject="IfcCovering" IFCObjectPredefinedType="SLEEVING" IFCTypeObject="IfcCoveringType" IFCTypeObjectPredefinedType="SLEEVING"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Zócalo de Madera"/>
+		<IFCType IFCObject="IfcCovering" IFCObjectPredefinedType="SKIRTINGBOARD" IFCTypeObject="IfcCoveringType" IFCTypeObjectPredefinedType="SKIRTINGBOARD"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Envase"/>
+		<IFCType IFCObject="IfcCovering" IFCObjectPredefinedType="WRAPPING" IFCTypeObject="IfcCoveringType" IFCTypeObjectPredefinedType="WRAPPING"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Escalera"/>
+		<IFCType IFCObject="IfcStair" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcStairType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Acabado de Escalera"/>
+		<IFCType IFCObject="IfcMember" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcMemberType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Contrahuella de Escalera"/>
+		<IFCType IFCObject="IfcMember" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcMemberType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Huella de Escalera"/>
+		<IFCType IFCObject="IfcMember" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcMemberType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Estructura de Escalera"/>
+		<IFCType IFCObject="IfcMember" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcMemberType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Tramo de Escalera"/>
+		<IFCType IFCObject="IfcStairFlight" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcStairFlightType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Tramo de Escalera Curvo"/>
+		<IFCType IFCObject="IfcStairFlight" IFCObjectPredefinedType="CURVED" IFCTypeObject="IfcStairFlightType" IFCTypeObjectPredefinedType="CURVED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Tramo de Escalera de Forma Libre"/>
+		<IFCType IFCObject="IfcStairFlight" IFCObjectPredefinedType="FREEFORM" IFCTypeObject="IfcStairFlightType" IFCTypeObjectPredefinedType="FREEFORM"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Tramo de Escalera Espiral"/>
+		<IFCType IFCObject="IfcStairFlight" IFCObjectPredefinedType="SPIRAL" IFCTypeObject="IfcStairFlightType" IFCTypeObjectPredefinedType="SPIRAL"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Tramo Recto de Escalera"/>
+		<IFCType IFCObject="IfcStairFlight" IFCObjectPredefinedType="STRAIGHT" IFCTypeObject="IfcStairFlightType" IFCTypeObjectPredefinedType="STRAIGHT"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Tramo de Escalera Compensada"/>
+		<IFCType IFCObject="IfcStairFlight" IFCObjectPredefinedType="WINDER" IFCTypeObject="IfcStairFlightType" IFCTypeObjectPredefinedType="WINDER"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Rellano de Escalera"/>
+		<IFCType IFCObject="IfcSlab" IFCObjectPredefinedType="LANDING" IFCTypeObject="IfcSlabType" IFCTypeObjectPredefinedType="LANDING"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Diseño de Escalera"/>
+		<IFCType IFCObject="IfcStair" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcStairType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Escalera Curva"/>
+		<IFCType IFCObject="IfcStair" IFCObjectPredefinedType="CURVED_RUN_STAIR" IFCTypeObject="IfcStairType" IFCTypeObjectPredefinedType="CURVED_RUN_STAIR"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Escalera de Doble Retorno"/>
+		<IFCType IFCObject="IfcStair" IFCObjectPredefinedType="DOUBLE_RETURN_STAIR" IFCTypeObject="IfcStairType" IFCTypeObjectPredefinedType="DOUBLE_RETURN_STAIR"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Escalera Medio Giro"/>
+		<IFCType IFCObject="IfcStair" IFCObjectPredefinedType="HALF_TURN_STAIR" IFCTypeObject="IfcStairType" IFCTypeObjectPredefinedType="HALF_TURN_STAIR"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Escalera de Media Cuerda"/>
+		<IFCType IFCObject="IfcStair" IFCObjectPredefinedType="HALF_WINDING_STAIR" IFCTypeObject="IfcStairType" IFCTypeObjectPredefinedType="HALF_WINDING_STAIR"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Escalera en L"/>
+		<IFCType IFCObject="IfcStair" IFCObjectPredefinedType="QUARTER_TURN_STAIR" IFCTypeObject="IfcStairType" IFCTypeObjectPredefinedType="QUARTER_TURN_STAIR"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Escalera en L Compensada"/>
+		<IFCType IFCObject="IfcStair" IFCObjectPredefinedType="QUARTER_WINDING_STAIR" IFCTypeObject="IfcStairType" IFCTypeObjectPredefinedType="QUARTER_WINDING_STAIR"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Escalera Espiral"/>
+		<IFCType IFCObject="IfcStair" IFCObjectPredefinedType="SPIRAL_STAIR" IFCTypeObject="IfcStairType" IFCTypeObjectPredefinedType="SPIRAL_STAIR"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Escalera Recta"/>
+		<IFCType IFCObject="IfcStair" IFCObjectPredefinedType="STRAIGHT_RUN_STAIR" IFCTypeObject="IfcStairType" IFCTypeObjectPredefinedType="STRAIGHT_RUN_STAIR"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Escalera en U"/>
+		<IFCType IFCObject="IfcStair" IFCObjectPredefinedType="THREE_QUARTER_TURN_STAIR" IFCTypeObject="IfcStairType" IFCTypeObjectPredefinedType="THREE_QUARTER_TURN_STAIR"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Escalera en U Compensada"/>
+		<IFCType IFCObject="IfcStair" IFCObjectPredefinedType="THREE_QUARTER_WINDING_STAIR" IFCTypeObject="IfcStairType" IFCTypeObjectPredefinedType="THREE_QUARTER_WINDING_STAIR"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Escalera de Dos Curvas"/>
+		<IFCType IFCObject="IfcStair" IFCObjectPredefinedType="TWO_CURVED_RUN_STAIR" IFCTypeObject="IfcStairType" IFCTypeObjectPredefinedType="TWO_CURVED_RUN_STAIR"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Escalera en L Doble"/>
+		<IFCType IFCObject="IfcStair" IFCObjectPredefinedType="TWO_QUARTER_TURN_STAIR" IFCTypeObject="IfcStairType" IFCTypeObjectPredefinedType="TWO_QUARTER_TURN_STAIR"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Escalera en L Compensada Doble"/>
+		<IFCType IFCObject="IfcStair" IFCObjectPredefinedType="TWO_QUARTER_WINDING_STAIR" IFCTypeObject="IfcStairType" IFCTypeObjectPredefinedType="TWO_QUARTER_WINDING_STAIR"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Escalera Recta Doble"/>
+		<IFCType IFCObject="IfcStair" IFCObjectPredefinedType="TWO_STRAIGHT_RUN_STAIR" IFCTypeObject="IfcStairType" IFCTypeObjectPredefinedType="TWO_STRAIGHT_RUN_STAIR"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Rampa"/>
+		<IFCType IFCObject="IfcRamp" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcRampType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Tramo de Rampa"/>
+		<IFCType IFCObject="IfcRampFlight" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcRampFlightType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Tramo de Rampa Espiral"/>
+		<IFCType IFCObject="IfcRampFlight" IFCObjectPredefinedType="SPIRAL" IFCTypeObject="IfcRampFlightType" IFCTypeObjectPredefinedType="SPIRAL"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Tramo Recto de Rampa"/>
+		<IFCType IFCObject="IfcRampFlight" IFCObjectPredefinedType="STRAIGHT" IFCTypeObject="IfcRampFlightType" IFCTypeObjectPredefinedType="STRAIGHT"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Rellano de Rampa"/>
+		<IFCType IFCObject="IfcSlab" IFCObjectPredefinedType="LANDING" IFCTypeObject="IfcSlabType" IFCTypeObjectPredefinedType="LANDING"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Rampa Medio Giro"/>
+		<IFCType IFCObject="IfcRamp" IFCObjectPredefinedType="HALF_TURN_RAMP" IFCTypeObject="IfcRampType" IFCTypeObjectPredefinedType="HALF_TURN_RAMP"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Rampa de 90º"/>
+		<IFCType IFCObject="IfcRamp" IFCObjectPredefinedType="QUARTER_TURN_RAMP" IFCTypeObject="IfcRampType" IFCTypeObjectPredefinedType="QUARTER_TURN_RAMP"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Rampa Espiral"/>
+		<IFCType IFCObject="IfcRamp" IFCObjectPredefinedType="SPIRAL_RAMP" IFCTypeObject="IfcRampType" IFCTypeObjectPredefinedType="SPIRAL_RAMP"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Rampa Recta"/>
+		<IFCType IFCObject="IfcRamp" IFCObjectPredefinedType="STRAIGHT_RUN_RAMP" IFCTypeObject="IfcRampType" IFCTypeObjectPredefinedType="STRAIGHT_RUN_RAMP"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Rampa en L Doble"/>
+		<IFCType IFCObject="IfcRamp" IFCObjectPredefinedType="TWO_QUARTER_TURN_RAMP" IFCTypeObject="IfcRampType" IFCTypeObjectPredefinedType="TWO_QUARTER_TURN_RAMP"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Rampa Recta Doble"/>
+		<IFCType IFCObject="IfcRamp" IFCObjectPredefinedType="TWO_STRAIGHT_RUN_RAMP" IFCTypeObject="IfcRampType" IFCTypeObjectPredefinedType="TWO_STRAIGHT_RUN_RAMP"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Muro Cortina"/>
+		<IFCType IFCObject="IfcCurtainWall" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcCurtainWallType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Abrazadera"/>
+		<IFCType IFCObject="IfcMember" IFCObjectPredefinedType="BRACE" IFCTypeObject="IfcMemberType" IFCTypeObjectPredefinedType="BRACE"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Cuerda"/>
+		<IFCType IFCObject="IfcMember" IFCObjectPredefinedType="CHORD" IFCTypeObject="IfcMemberType" IFCTypeObjectPredefinedType="CHORD"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Collar"/>
+		<IFCType IFCObject="IfcMember" IFCObjectPredefinedType="COLLAR" IFCTypeObject="IfcMemberType" IFCTypeObjectPredefinedType="COLLAR"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Parteluz"/>
+		<IFCType IFCObject="IfcMember" IFCObjectPredefinedType="MULLION" IFCTypeObject="IfcMemberType" IFCTypeObjectPredefinedType="MULLION"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Parte de Chapa"/>
+		<IFCType IFCObject="IfcMember" IFCObjectPredefinedType="PLATE" IFCTypeObject="IfcMemberType" IFCTypeObjectPredefinedType="PLATE"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Poste"/>
+		<IFCType IFCObject="IfcMember" IFCObjectPredefinedType="POST" IFCTypeObject="IfcMemberType" IFCTypeObjectPredefinedType="POST"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Correa"/>
+		<IFCType IFCObject="IfcMember" IFCObjectPredefinedType="PURLIN" IFCTypeObject="IfcMemberType" IFCTypeObjectPredefinedType="PURLIN"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Par"/>
+		<IFCType IFCObject="IfcMember" IFCObjectPredefinedType="RAFTER" IFCTypeObject="IfcMemberType" IFCTypeObjectPredefinedType="RAFTER"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Larguero"/>
+		<IFCType IFCObject="IfcMember" IFCObjectPredefinedType="STRINGER" IFCTypeObject="IfcMemberType" IFCTypeObjectPredefinedType="STRINGER"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Puntal"/>
+		<IFCType IFCObject="IfcMember" IFCObjectPredefinedType="STRUT" IFCTypeObject="IfcMemberType" IFCTypeObjectPredefinedType="STRUT"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Perfil Stud"/>
+		<IFCType IFCObject="IfcMember" IFCObjectPredefinedType="STUD" IFCTypeObject="IfcMemberType" IFCTypeObjectPredefinedType="STUD"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Plancha"/>
+		<IFCType IFCObject="IfcPlate" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcPlateType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Panel de Cortina"/>
+		<IFCType IFCObject="IfcPlate" IFCObjectPredefinedType="CURTAIN_PANEL" IFCTypeObject="IfcPlateType" IFCTypeObjectPredefinedType="CURTAIN_PANEL"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Hoja"/>
+		<IFCType IFCObject="IfcPlate" IFCObjectPredefinedType="SHEET" IFCTypeObject="IfcPlateType" IFCTypeObjectPredefinedType="SHEET"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Chimenea"/>
+		<IFCType IFCObject="IfcChimney" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcChimneyType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Puerta"/>
+		<IFCType IFCObject="IfcDoor" IFCObjectPredefinedType="DOOR" IFCTypeObject="IfcDoorType" IFCTypeObjectPredefinedType="DOOR"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Compuerta"/>
+		<IFCType IFCObject="IfcDoor" IFCObjectPredefinedType="GATE" IFCTypeObject="IfcDoorType" IFCTypeObjectPredefinedType="GATE"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Trampilla"/>
+		<IFCType IFCObject="IfcDoor" IFCObjectPredefinedType="TRAPDOOR" IFCTypeObject="IfcDoorType" IFCTypeObjectPredefinedType="TRAPDOOR"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Ventana"/>
+		<IFCType IFCObject="IfcWindow" IFCObjectPredefinedType="WINDOW" IFCTypeObject="IfcWindowType" IFCTypeObjectPredefinedType="WINDOW"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Cúpula de Luz"/>
+		<IFCType IFCObject="IfcWindow" IFCObjectPredefinedType="LIGHTDOME" IFCTypeObject="IfcWindowType" IFCTypeObjectPredefinedType="LIGHTDOME"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Lucernario"/>
+		<IFCType IFCObject="IfcWindow" IFCObjectPredefinedType="SKYLIGHT" IFCTypeObject="IfcWindowType" IFCTypeObjectPredefinedType="SKYLIGHT"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id=""/>
+		<IFCType IFCObject="IfcBuildingElementProxy" IFCObjectPredefinedType="PROVISIONFORVOID" IFCTypeObject="IfcBuildingElementProxyType" IFCTypeObjectPredefinedType="PROVISIONFORVOID"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Elemento Componente"/>
+		<IFCType IFCObject="IfcBuildingElementProxy" IFCObjectPredefinedType="USERDEFINED" IFCObjectUserDefinedType="Element Component" IFCTypeObject="IfcBuildingElementProxyType" IFCTypeObjectPredefinedType="USERDEFINED" IFCTypeObjectUserDefinedType="Element Component"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Accesorios Varios"/>
+		<IFCType IFCObject="IfcDiscreteAccessory" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcDiscreteAccessoryType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Pletina de Anclaje"/>
+		<IFCType IFCObject="IfcDiscreteAccessory" IFCObjectPredefinedType="ANCHORPLATE" IFCTypeObject="IfcDiscreteAccessoryType" IFCTypeObjectPredefinedType="ANCHORPLATE"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Ménsula"/>
+		<IFCType IFCObject="IfcDiscreteAccessory" IFCObjectPredefinedType="BRACKET" IFCTypeObject="IfcDiscreteAccessoryType" IFCTypeObjectPredefinedType="BRACKET"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Zapato"/>
+		<IFCType IFCObject="IfcDiscreteAccessory" IFCObjectPredefinedType="SHOE" IFCTypeObject="IfcDiscreteAccessoryType" IFCTypeObjectPredefinedType="SHOE"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Cierre"/>
+		<IFCType IFCObject="IfcFastener" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcFastenerType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Uniones Mecánicas"/>
+		<IFCType IFCObject="IfcMechanicalFastener" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcMechanicalFastenerType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Perno de Anclaje"/>
+		<IFCType IFCObject="IfcMechanicalFastener" IFCObjectPredefinedType="ANCHORBOLT" IFCTypeObject="IfcMechanicalFastenerType" IFCTypeObjectPredefinedType="ANCHORBOLT"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Cerrojo"/>
+		<IFCType IFCObject="IfcMechanicalFastener" IFCObjectPredefinedType="BOLT" IFCTypeObject="IfcMechanicalFastenerType" IFCTypeObjectPredefinedType="BOLT"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Clavija"/>
+		<IFCType IFCObject="IfcMechanicalFastener" IFCObjectPredefinedType="DOWEL" IFCTypeObject="IfcMechanicalFastenerType" IFCTypeObjectPredefinedType="DOWEL"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Clavo"/>
+		<IFCType IFCObject="IfcMechanicalFastener" IFCObjectPredefinedType="NAIL" IFCTypeObject="IfcMechanicalFastenerType" IFCTypeObjectPredefinedType="NAIL"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Chapa para Clavos"/>
+		<IFCType IFCObject="IfcMechanicalFastener" IFCObjectPredefinedType="NAILPLATE" IFCTypeObject="IfcMechanicalFastenerType" IFCTypeObjectPredefinedType="NAILPLATE"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Remache"/>
+		<IFCType IFCObject="IfcMechanicalFastener" IFCObjectPredefinedType="RIVET" IFCTypeObject="IfcMechanicalFastenerType" IFCTypeObjectPredefinedType="RIVET"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Tornillo"/>
+		<IFCType IFCObject="IfcMechanicalFastener" IFCObjectPredefinedType="SCREW" IFCTypeObject="IfcMechanicalFastenerType" IFCTypeObjectPredefinedType="SCREW"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Conector de Corte"/>
+		<IFCType IFCObject="IfcMechanicalFastener" IFCObjectPredefinedType="SHEARCONNECTOR" IFCTypeObject="IfcMechanicalFastenerType" IFCTypeObjectPredefinedType="SHEARCONNECTOR"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Grapa"/>
+		<IFCType IFCObject="IfcMechanicalFastener" IFCObjectPredefinedType="STAPLE" IFCTypeObject="IfcMechanicalFastenerType" IFCTypeObjectPredefinedType="STAPLE"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Conector de Cizalla"/>
+		<IFCType IFCObject="IfcMechanicalFastener" IFCObjectPredefinedType="STUDSHEARCONNECTOR" IFCTypeObject="IfcMechanicalFastenerType" IFCTypeObjectPredefinedType="STUDSHEARCONNECTOR"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Pegamento"/>
+		<IFCType IFCObject="IfcFastener" IFCObjectPredefinedType="GLUE" IFCTypeObject="IfcFastenerType" IFCTypeObjectPredefinedType="GLUE"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Sujetador de Mortero"/>
+		<IFCType IFCObject="IfcFastener" IFCObjectPredefinedType="MORTAR" IFCTypeObject="IfcFastenerType" IFCTypeObjectPredefinedType="MORTAR"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Soldadura"/>
+		<IFCType IFCObject="IfcFastener" IFCObjectPredefinedType="WELD" IFCTypeObject="IfcFastenerType" IFCTypeObjectPredefinedType="WELD"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Refuerzo"/>
+		<IFCType IFCObject="IfcBuildingElementProxy" IFCObjectPredefinedType="USERDEFINED" IFCObjectUserDefinedType="Reinforcement" IFCTypeObject="IfcBuildingElementProxyType" IFCTypeObjectPredefinedType="USERDEFINED" IFCTypeObjectUserDefinedType="Reinforcement"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Barra de Refuerzo"/>
+		<IFCType IFCObject="IfcReinforcingBar" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcReinforcingBarType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Varilla de Anclaje"/>
+		<IFCType IFCObject="IfcReinforcingBar" IFCObjectPredefinedType="ANCHORING" IFCTypeObject="IfcReinforcingBarType" IFCTypeObjectPredefinedType="ANCHORING"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Varilla para Bordes"/>
+		<IFCType IFCObject="IfcReinforcingBar" IFCObjectPredefinedType="EDGE" IFCTypeObject="IfcReinforcingBarType" IFCTypeObjectPredefinedType="EDGE"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Estribo de Refuerzo"/>
+		<IFCType IFCObject="IfcReinforcingBar" IFCObjectPredefinedType="LIGATURE" IFCTypeObject="IfcReinforcingBarType" IFCTypeObjectPredefinedType="LIGATURE"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Varilla de Refuerzo Principal"/>
+		<IFCType IFCObject="IfcReinforcingBar" IFCObjectPredefinedType="MAIN" IFCTypeObject="IfcReinforcingBarType" IFCTypeObjectPredefinedType="MAIN"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Varillas de Punzonamiento"/>
+		<IFCType IFCObject="IfcReinforcingBar" IFCObjectPredefinedType="PUNCHING" IFCTypeObject="IfcReinforcingBarType" IFCTypeObjectPredefinedType="PUNCHING"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Estribo Refuerzo Circular"/>
+		<IFCType IFCObject="IfcReinforcingBar" IFCObjectPredefinedType="RING" IFCTypeObject="IfcReinforcingBarType" IFCTypeObjectPredefinedType="RING"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Barra de Refuerzo de Corte"/>
+		<IFCType IFCObject="IfcReinforcingBar" IFCObjectPredefinedType="SHEAR" IFCTypeObject="IfcReinforcingBarType" IFCTypeObjectPredefinedType="SHEAR"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Barra de Refuerzo Stud"/>
+		<IFCType IFCObject="IfcReinforcingBar" IFCObjectPredefinedType="STUD" IFCTypeObject="IfcReinforcingBarType" IFCTypeObjectPredefinedType="STUD"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Malla de Refuerzo"/>
+		<IFCType IFCObject="IfcReinforcingMesh" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcReinforcingMeshType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Tendón"/>
+		<IFCType IFCObject="IfcTendon" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcTendonType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Tendón de Barra"/>
+		<IFCType IFCObject="IfcTendon" IFCObjectPredefinedType="BAR" IFCTypeObject="IfcTendonType" IFCTypeObjectPredefinedType="BAR"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Tendón Recubierto"/>
+		<IFCType IFCObject="IfcTendon" IFCObjectPredefinedType="COATED" IFCTypeObject="IfcTendonType" IFCTypeObjectPredefinedType="COATED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Cordón de Alambre"/>
+		<IFCType IFCObject="IfcTendon" IFCObjectPredefinedType="STRAND" IFCTypeObject="IfcTendonType" IFCTypeObjectPredefinedType="STRAND"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Tendón de Cable"/>
+		<IFCType IFCObject="IfcTendon" IFCObjectPredefinedType="WIRE" IFCTypeObject="IfcTendonType" IFCTypeObjectPredefinedType="WIRE"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Anclaje Tendón"/>
+		<IFCType IFCObject="IfcTendonAnchor" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcTendonAnchorType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Acoplador del Tendón de Anclaje"/>
+		<IFCType IFCObject="IfcTendonAnchor" IFCObjectPredefinedType="COUPLER" IFCTypeObject="IfcTendonAnchorType" IFCTypeObjectPredefinedType="COUPLER"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Anclaje Tendón Extremo Fijo"/>
+		<IFCType IFCObject="IfcTendonAnchor" IFCObjectPredefinedType="FIXED_END" IFCTypeObject="IfcTendonAnchorType" IFCTypeObjectPredefinedType="FIXED_END"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Anclaje Tendón Extremo Tensado"/>
+		<IFCType IFCObject="IfcTendonAnchor" IFCObjectPredefinedType="TENSIONING_END" IFCTypeObject="IfcTendonAnchorType" IFCTypeObjectPredefinedType="TENSIONING_END"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Aislador de Vibraciones"/>
+		<IFCType IFCObject="IfcVibrationIsolator" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcVibrationIsolatorType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Compresión"/>
+		<IFCType IFCObject="IfcVibrationIsolator" IFCObjectPredefinedType="COMPRESSION" IFCTypeObject="IfcVibrationIsolatorType" IFCTypeObjectPredefinedType="COMPRESSION"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Muelle"/>
+		<IFCType IFCObject="IfcVibrationIsolator" IFCObjectPredefinedType="SPRING" IFCTypeObject="IfcVibrationIsolatorType" IFCTypeObjectPredefinedType="SPRING"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Mobiliario"/>
+		<IFCType IFCObject="IfcFurniture" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcFurnitureType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Cama"/>
+		<IFCType IFCObject="IfcFurniture" IFCObjectPredefinedType="BED" IFCTypeObject="IfcFurnitureType" IFCTypeObjectPredefinedType="BED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Silla"/>
+		<IFCType IFCObject="IfcFurniture" IFCObjectPredefinedType="CHAIR" IFCTypeObject="IfcFurnitureType" IFCTypeObjectPredefinedType="CHAIR"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Escritorio"/>
+		<IFCType IFCObject="IfcFurniture" IFCObjectPredefinedType="DESK" IFCTypeObject="IfcFurnitureType" IFCTypeObjectPredefinedType="DESK"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Archivador"/>
+		<IFCType IFCObject="IfcFurniture" IFCObjectPredefinedType="FILECABINET" IFCTypeObject="IfcFurnitureType" IFCTypeObjectPredefinedType="FILECABINET"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Estantería"/>
+		<IFCType IFCObject="IfcFurniture" IFCObjectPredefinedType="SHELF" IFCTypeObject="IfcFurnitureType" IFCTypeObjectPredefinedType="SHELF"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Sofá"/>
+		<IFCType IFCObject="IfcFurniture" IFCObjectPredefinedType="SOFA" IFCTypeObject="IfcFurnitureType" IFCTypeObjectPredefinedType="SOFA"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Mesa"/>
+		<IFCType IFCObject="IfcFurniture" IFCObjectPredefinedType="TABLE" IFCTypeObject="IfcFurnitureType" IFCTypeObjectPredefinedType="TABLE"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Mobiliario de Sistema"/>
+		<IFCType IFCObject="IfcSystemFurnitureElement" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcSystemFurnitureElementType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Panel de Sistema de Muebles"/>
+		<IFCType IFCObject="IfcSystemFurnitureElement" IFCObjectPredefinedType="PANEL" IFCTypeObject="IfcSystemFurnitureElementType" IFCTypeObjectPredefinedType="PANEL"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Superficie de Trabajo"/>
+		<IFCType IFCObject="IfcSystemFurnitureElement" IFCObjectPredefinedType="WORKSURFACE" IFCTypeObject="IfcSystemFurnitureElementType" IFCTypeObjectPredefinedType="WORKSURFACE"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Controlador Multiposición"/>
+		<IFCType IFCObject="IfcController" IFCObjectPredefinedType="MULTIPOSITION" IFCTypeObject="IfcControllerType" IFCTypeObjectPredefinedType="MULTIPOSITION"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Controlador Proporcional"/>
+		<IFCType IFCObject="IfcController" IFCObjectPredefinedType="PROPORTIONAL" IFCTypeObject="IfcControllerType" IFCTypeObjectPredefinedType="PROPORTIONAL"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Controlador de Dos Posiciones"/>
+		<IFCType IFCObject="IfcController" IFCObjectPredefinedType="TWOPOSITION" IFCTypeObject="IfcControllerType" IFCTypeObjectPredefinedType="TWOPOSITION"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Medidor de Frecuencia"/>
+		<IFCType IFCObject="IfcFlowInstrument" IFCObjectPredefinedType="FREQUENCYMETER" IFCTypeObject="IfcFlowInstrumentType" IFCTypeObjectPredefinedType="FREQUENCYMETER"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Medidor de Ángulo de Fase"/>
+		<IFCType IFCObject="IfcFlowInstrument" IFCObjectPredefinedType="PHASEANGLEMETER" IFCTypeObject="IfcFlowInstrumentType" IFCTypeObjectPredefinedType="PHASEANGLEMETER"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Voltímetro RMS"/>
+		<IFCType IFCObject="IfcFlowInstrument" IFCObjectPredefinedType="VOLTMETER_RMS" IFCTypeObject="IfcFlowInstrumentType" IFCTypeObjectPredefinedType="VOLTMETER_RMS"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Dispositivo de Protección Electromagnético"/>
+		<IFCType IFCObject="IfcProtectiveDeviceTrippingUnit" IFCObjectPredefinedType="ELECTROMAGNETIC" IFCTypeObject="IfcProtectiveDeviceTrippingUnitType" IFCTypeObjectPredefinedType="ELECTROMAGNETIC"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Dispositivo de Protección Electrónico"/>
+		<IFCType IFCObject="IfcProtectiveDeviceTrippingUnit" IFCObjectPredefinedType="ELECTRONIC" IFCTypeObject="IfcProtectiveDeviceTrippingUnitType" IFCTypeObjectPredefinedType="ELECTRONIC"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Dispositivo Protector de Corriente Residual"/>
+		<IFCType IFCObject="IfcProtectiveDeviceTrippingUnit" IFCObjectPredefinedType="RESIDUALCURRENT" IFCTypeObject="IfcProtectiveDeviceTrippingUnitType" IFCTypeObjectPredefinedType="RESIDUALCURRENT"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Dispositivo de Protección Térmica"/>
+		<IFCType IFCObject="IfcProtectiveDeviceTrippingUnit" IFCObjectPredefinedType="THERMAL" IFCTypeObject="IfcProtectiveDeviceTrippingUnitType" IFCTypeObjectPredefinedType="THERMAL"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Sensor de CO2"/>
+		<IFCType IFCObject="IfcSensor" IFCObjectPredefinedType="CO2SENSOR" IFCTypeObject="IfcSensorType" IFCTypeObjectPredefinedType="CO2SENSOR"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Sensor de Conductividad"/>
+		<IFCType IFCObject="IfcSensor" IFCObjectPredefinedType="CONDUCTANCESENSOR" IFCTypeObject="IfcSensorType" IFCTypeObjectPredefinedType="CONDUCTANCESENSOR"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Sensor de Contacto"/>
+		<IFCType IFCObject="IfcSensor" IFCObjectPredefinedType="CONTACTSENSOR" IFCTypeObject="IfcSensorType" IFCTypeObjectPredefinedType="CONTACTSENSOR"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Sensor de Fuego"/>
+		<IFCType IFCObject="IfcSensor" IFCObjectPredefinedType="FIRESENSOR" IFCTypeObject="IfcSensorType" IFCTypeObjectPredefinedType="FIRESENSOR"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Sensor de Flujo"/>
+		<IFCType IFCObject="IfcSensor" IFCObjectPredefinedType="FLOWSENSOR" IFCTypeObject="IfcSensorType" IFCTypeObjectPredefinedType="FLOWSENSOR"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Sensor de Escarcha"/>
+		<IFCType IFCObject="IfcSensor" IFCObjectPredefinedType="FROSTSENSOR" IFCTypeObject="IfcSensorType" IFCTypeObjectPredefinedType="FROSTSENSOR"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Sensor de Gas"/>
+		<IFCType IFCObject="IfcSensor" IFCObjectPredefinedType="GASSENSOR" IFCTypeObject="IfcSensorType" IFCTypeObjectPredefinedType="GASSENSOR"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Sensor de Calor"/>
+		<IFCType IFCObject="IfcSensor" IFCObjectPredefinedType="HEATSENSOR" IFCTypeObject="IfcSensorType" IFCTypeObjectPredefinedType="HEATSENSOR"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Sensor de Humedad"/>
+		<IFCType IFCObject="IfcSensor" IFCObjectPredefinedType="HUMIDITYSENSOR" IFCTypeObject="IfcSensorType" IFCTypeObjectPredefinedType="HUMIDITYSENSOR"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Sensor Identificador"/>
+		<IFCType IFCObject="IfcSensor" IFCObjectPredefinedType="IDENTIFIERSENSOR" IFCTypeObject="IfcSensorType" IFCTypeObjectPredefinedType="IDENTIFIERSENSOR"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Sensor de Concentración de Iones"/>
+		<IFCType IFCObject="IfcSensor" IFCObjectPredefinedType="IONCONCENTRATIONSENSOR" IFCTypeObject="IfcSensorType" IFCTypeObjectPredefinedType="IONCONCENTRATIONSENSOR"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Sensor de Nivel"/>
+		<IFCType IFCObject="IfcSensor" IFCObjectPredefinedType="LEVELSENSOR" IFCTypeObject="IfcSensorType" IFCTypeObjectPredefinedType="LEVELSENSOR"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Sensor de Luz"/>
+		<IFCType IFCObject="IfcSensor" IFCObjectPredefinedType="LIGHTSENSOR" IFCTypeObject="IfcSensorType" IFCTypeObjectPredefinedType="LIGHTSENSOR"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Sensor de Agua"/>
+		<IFCType IFCObject="IfcSensor" IFCObjectPredefinedType="MOISTURESENSOR" IFCTypeObject="IfcSensorType" IFCTypeObjectPredefinedType="MOISTURESENSOR"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Sensor de Movimiento"/>
+		<IFCType IFCObject="IfcSensor" IFCObjectPredefinedType="MOVEMENTSENSOR" IFCTypeObject="IfcSensorType" IFCTypeObjectPredefinedType="MOVEMENTSENSOR"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Sensor de PH"/>
+		<IFCType IFCObject="IfcSensor" IFCObjectPredefinedType="PHSENSOR" IFCTypeObject="IfcSensorType" IFCTypeObjectPredefinedType="PHSENSOR"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Sensor de Presión"/>
+		<IFCType IFCObject="IfcSensor" IFCObjectPredefinedType="PRESSURESENSOR" IFCTypeObject="IfcSensorType" IFCTypeObjectPredefinedType="PRESSURESENSOR"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Sensor de Radiación"/>
+		<IFCType IFCObject="IfcSensor" IFCObjectPredefinedType="RADIATIONSENSOR" IFCTypeObject="IfcSensorType" IFCTypeObjectPredefinedType="RADIATIONSENSOR"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Sensor de Radioactividad"/>
+		<IFCType IFCObject="IfcSensor" IFCObjectPredefinedType="RADIOACTIVITYSENSOR" IFCTypeObject="IfcSensorType" IFCTypeObjectPredefinedType="RADIOACTIVITYSENSOR"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Sensor de Humo"/>
+		<IFCType IFCObject="IfcSensor" IFCObjectPredefinedType="SMOKESENSOR" IFCTypeObject="IfcSensorType" IFCTypeObjectPredefinedType="SMOKESENSOR"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Sensor de Sonido"/>
+		<IFCType IFCObject="IfcSensor" IFCObjectPredefinedType="SOUNDSENSOR" IFCTypeObject="IfcSensorType" IFCTypeObjectPredefinedType="SOUNDSENSOR"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Sensor de Temperatura"/>
+		<IFCType IFCObject="IfcSensor" IFCObjectPredefinedType="TEMPERATURESENSOR" IFCTypeObject="IfcSensorType" IFCTypeObjectPredefinedType="TEMPERATURESENSOR"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Sensor de Viento"/>
+		<IFCType IFCObject="IfcSensor" IFCObjectPredefinedType="WINDSENSOR" IFCTypeObject="IfcSensorType" IFCTypeObjectPredefinedType="WINDSENSOR"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Panel de Alarma"/>
+		<IFCType IFCObject="IfcUnitaryControlElement" IFCObjectPredefinedType="ALARMPANEL" IFCTypeObject="IfcUnitaryControlElementType" IFCTypeObjectPredefinedType="ALARMPANEL"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Panel de Detección de Gas"/>
+		<IFCType IFCObject="IfcUnitaryControlElement" IFCObjectPredefinedType="GASDETECTIONPANEL" IFCTypeObject="IfcUnitaryControlElementType" IFCTypeObjectPredefinedType="GASDETECTIONPANEL"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Panel Indicador"/>
+		<IFCType IFCObject="IfcUnitaryControlElement" IFCObjectPredefinedType="INDICATORPANEL" IFCTypeObject="IfcUnitaryControlElementType" IFCTypeObjectPredefinedType="INDICATORPANEL"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Panel Mímico"/>
+		<IFCType IFCObject="IfcUnitaryControlElement" IFCObjectPredefinedType="MIMICPANEL" IFCTypeObject="IfcUnitaryControlElementType" IFCTypeObjectPredefinedType="MIMICPANEL"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Termostato"/>
+		<IFCType IFCObject="IfcUnitaryControlElement" IFCObjectPredefinedType="THERMOSTAT" IFCTypeObject="IfcUnitaryControlElementType" IFCTypeObjectPredefinedType="THERMOSTAT"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Estación Meteorológica"/>
+		<IFCType IFCObject="IfcUnitaryControlElement" IFCObjectPredefinedType="WEATHERSTATION" IFCTypeObject="IfcUnitaryControlElementType" IFCTypeObjectPredefinedType="WEATHERSTATION"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Intercambiador de Contraflujo de Placas Fijas"/>
+		<IFCType IFCObject="IfcAirToAirHeatRecovery" IFCObjectPredefinedType="FIXEDPLATECOUNTERFLOWEXCHANGER" IFCTypeObject="IfcAirToAirHeatRecoveryType" IFCTypeObjectPredefinedType="FIXEDPLATECOUNTERFLOWEXCHANGER"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Intercambiador de Flujo Cruzado de Placas Fijas"/>
+		<IFCType IFCObject="IfcAirToAirHeatRecovery" IFCObjectPredefinedType="FIXEDPLATECROSSFLOWEXCHANGER" IFCTypeObject="IfcAirToAirHeatRecoveryType" IFCTypeObjectPredefinedType="FIXEDPLATECROSSFLOWEXCHANGER"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Intercambiador de Flujo Paralelo de Placas Fijas"/>
+		<IFCType IFCObject="IfcAirToAirHeatRecovery" IFCObjectPredefinedType="FIXEDPLATEPARALLELFLOWEXCHANGER" IFCTypeObject="IfcAirToAirHeatRecoveryType" IFCTypeObjectPredefinedType="FIXEDPLATEPARALLELFLOWEXCHANGER"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Tubo de Calor"/>
+		<IFCType IFCObject="IfcAirToAirHeatRecovery" IFCObjectPredefinedType="HEATPIPE" IFCTypeObject="IfcAirToAirHeatRecoveryType" IFCTypeObjectPredefinedType="HEATPIPE"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Recuperador de Calor Rotativo"/>
+		<IFCType IFCObject="IfcAirToAirHeatRecovery" IFCObjectPredefinedType="ROTARYWHEEL" IFCTypeObject="IfcAirToAirHeatRecoveryType" IFCTypeObjectPredefinedType="ROTARYWHEEL"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Circuito de Bobina en Bucle"/>
+		<IFCType IFCObject="IfcAirToAirHeatRecovery" IFCObjectPredefinedType="RUNAROUNDCOILLOOP" IFCTypeObject="IfcAirToAirHeatRecoveryType" IFCTypeObjectPredefinedType="RUNAROUNDCOILLOOP"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Intercambiador de Calor de Bobina por Termosifón"/>
+		<IFCType IFCObject="IfcAirToAirHeatRecovery" IFCObjectPredefinedType="THERMOSIPHONCOILTYPEHEATEXCHANGERS" IFCTypeObject="IfcAirToAirHeatRecoveryType" IFCTypeObjectPredefinedType="THERMOSIPHONCOILTYPEHEATEXCHANGERS"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Intercambiador de Calor de Tubo Sellado por Termosifón"/>
+		<IFCType IFCObject="IfcAirToAirHeatRecovery" IFCObjectPredefinedType="THERMOSIPHONSEALEDTUBEHEATEXCHANGERS" IFCTypeObject="IfcAirToAirHeatRecoveryType" IFCTypeObjectPredefinedType="THERMOSIPHONSEALEDTUBEHEATEXCHANGERS"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Bucle de Recuperación de Entalpía de Torre Doble"/>
+		<IFCType IFCObject="IfcAirToAirHeatRecovery" IFCObjectPredefinedType="TWINTOWERENTHALPYRECOVERYLOOPS" IFCTypeObject="IfcAirToAirHeatRecoveryType" IFCTypeObjectPredefinedType="TWINTOWERENTHALPYRECOVERYLOOPS"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Caldera"/>
+		<IFCType IFCObject="IfcBoiler" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcBoilerType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Caldera de Vapor"/>
+		<IFCType IFCObject="IfcBoiler" IFCObjectPredefinedType="STEAM" IFCTypeObject="IfcBoilerType" IFCTypeObjectPredefinedType="STEAM"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Hervidor de Agua"/>
+		<IFCType IFCObject="IfcBoiler" IFCObjectPredefinedType="WATER" IFCTypeObject="IfcBoilerType" IFCTypeObjectPredefinedType="WATER"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Enfriador"/>
+		<IFCType IFCObject="IfcChiller" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcChillerType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Enfriador Enfriado por Aire"/>
+		<IFCType IFCObject="IfcChiller" IFCObjectPredefinedType="AIRCOOLED" IFCTypeObject="IfcChillerType" IFCTypeObjectPredefinedType="AIRCOOLED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Recuperador de Calor"/>
+		<IFCType IFCObject="IfcChiller" IFCObjectPredefinedType="HEATRECOVERY" IFCTypeObject="IfcChillerType" IFCTypeObjectPredefinedType="HEATRECOVERY"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Enfriador Refrigerado por Agua"/>
+		<IFCType IFCObject="IfcChiller" IFCObjectPredefinedType="WATERCOOLED" IFCTypeObject="IfcChillerType" IFCTypeObjectPredefinedType="WATERCOOLED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Bobina de Enfriamiento DX"/>
+		<IFCType IFCObject="IfcCoil" IFCObjectPredefinedType="DXCOOLINGCOIL" IFCTypeObject="IfcCoilType" IFCTypeObjectPredefinedType="DXCOOLINGCOIL"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Bobina de Calentamiento Eléctrico"/>
+		<IFCType IFCObject="IfcCoil" IFCObjectPredefinedType="ELECTRICHEATINGCOIL" IFCTypeObject="IfcCoilType" IFCTypeObjectPredefinedType="ELECTRICHEATINGCOIL"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Bobina de Calentamiento de Gas"/>
+		<IFCType IFCObject="IfcCoil" IFCObjectPredefinedType="GASHEATINGCOIL" IFCTypeObject="IfcCoilType" IFCTypeObjectPredefinedType="GASHEATINGCOIL"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Bobina Hidrónica"/>
+		<IFCType IFCObject="IfcCoil" IFCObjectPredefinedType="HYDRONICCOIL" IFCTypeObject="IfcCoilType" IFCTypeObjectPredefinedType="HYDRONICCOIL"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Serpentín Calentador de Vapor"/>
+		<IFCType IFCObject="IfcCoil" IFCObjectPredefinedType="STEAMHEATINGCOIL" IFCTypeObject="IfcCoilType" IFCTypeObjectPredefinedType="STEAMHEATINGCOIL"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Bobina de Refrigeración por Agua"/>
+		<IFCType IFCObject="IfcCoil" IFCObjectPredefinedType="WATERCOOLINGCOIL" IFCTypeObject="IfcCoilType" IFCTypeObjectPredefinedType="WATERCOOLINGCOIL"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Bobina de Calefacción por Agua"/>
+		<IFCType IFCObject="IfcCoil" IFCObjectPredefinedType="WATERHEATINGCOIL" IFCTypeObject="IfcCoilType" IFCTypeObjectPredefinedType="WATERHEATINGCOIL"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Condensador Enfriado por Aire"/>
+		<IFCType IFCObject="IfcCondenser" IFCObjectPredefinedType="AIRCOOLED" IFCTypeObject="IfcCondenserType" IFCTypeObjectPredefinedType="AIRCOOLED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Condensador Enfriado por Evaporación"/>
+		<IFCType IFCObject="IfcCondenser" IFCObjectPredefinedType="EVAPORATIVECOOLED" IFCTypeObject="IfcCondenserType" IFCTypeObjectPredefinedType="EVAPORATIVECOOLED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Condensador Refrigerado por Agua"/>
+		<IFCType IFCObject="IfcCondenser" IFCObjectPredefinedType="WATERCOOLED" IFCTypeObject="IfcCondenserType" IFCTypeObjectPredefinedType="WATERCOOLED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Condensador de Placas Soldadas Refrigerado por Agua"/>
+		<IFCType IFCObject="IfcCondenser" IFCObjectPredefinedType="WATERCOOLEDBRAZEDPLATE" IFCTypeObject="IfcCondenserType" IFCTypeObjectPredefinedType="WATERCOOLEDBRAZEDPLATE"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Condensador de Coraza y Bobina Refrigerado por Agua"/>
+		<IFCType IFCObject="IfcCondenser" IFCObjectPredefinedType="WATERCOOLEDSHELLCOIL" IFCTypeObject="IfcCondenserType" IFCTypeObjectPredefinedType="WATERCOOLEDSHELLCOIL"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Condensador de Coraza y Tubos Refrigerado por Agua"/>
+		<IFCType IFCObject="IfcCondenser" IFCObjectPredefinedType="WATERCOOLEDSHELLTUBE" IFCTypeObject="IfcCondenserType" IFCTypeObjectPredefinedType="WATERCOOLEDSHELLTUBE"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Condensador de Tubo en Tubo Refrigerado por Agua"/>
+		<IFCType IFCObject="IfcCondenser" IFCObjectPredefinedType="WATERCOOLEDTUBEINTUBE" IFCTypeObject="IfcCondenserType" IFCTypeObjectPredefinedType="WATERCOOLEDTUBEINTUBE"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Viga Refrigerada"/>
+		<IFCType IFCObject="IfcCooledBeam" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcCooledBeamType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Viga Refrigerada Activa"/>
+		<IFCType IFCObject="IfcCooledBeam" IFCObjectPredefinedType="ACTIVE" IFCTypeObject="IfcCooledBeamType" IFCTypeObjectPredefinedType="ACTIVE"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Viga Fría Pasiva"/>
+		<IFCType IFCObject="IfcCooledBeam" IFCObjectPredefinedType="PASSIVE" IFCTypeObject="IfcCooledBeamType" IFCTypeObjectPredefinedType="PASSIVE"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Torre de Refrigeración de Tiro Mecánico Forzado"/>
+		<IFCType IFCObject="IfcCoolingTower" IFCObjectPredefinedType="MECHANICALFORCEDDRAFT" IFCTypeObject="IfcCoolingTowerType" IFCTypeObjectPredefinedType="MECHANICALFORCEDDRAFT"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Torre de Refrigeración de Tiro Mecánico Inducido"/>
+		<IFCType IFCObject="IfcCoolingTower" IFCObjectPredefinedType="MECHANICALINDUCEDDRAFT" IFCTypeObject="IfcCoolingTowerType" IFCTypeObjectPredefinedType="MECHANICALINDUCEDDRAFT"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Torre de Refrigeración de Tiro Natural"/>
+		<IFCType IFCObject="IfcCoolingTower" IFCObjectPredefinedType="NATURALDRAFT" IFCTypeObject="IfcCoolingTowerType" IFCTypeObjectPredefinedType="NATURALDRAFT"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Generador Eléctrico"/>
+		<IFCType IFCObject="IfcElectricGenerator" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcElectricGeneratorType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="CHP"/>
+		<IFCType IFCObject="IfcElectricGenerator" IFCObjectPredefinedType="CHP" IFCTypeObject="IfcElectricGeneratorType" IFCTypeObjectPredefinedType="CHP"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Motor Generador"/>
+		<IFCType IFCObject="IfcElectricGenerator" IFCObjectPredefinedType="ENGINEGENERATOR" IFCTypeObject="IfcElectricGeneratorType" IFCTypeObjectPredefinedType="ENGINEGENERATOR"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Generador Eléctrico Portátil"/>
+		<IFCType IFCObject="IfcElectricGenerator" IFCObjectPredefinedType="STANDALONE" IFCTypeObject="IfcElectricGeneratorType" IFCTypeObjectPredefinedType="STANDALONE"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Motor Eléctrico"/>
+		<IFCType IFCObject="IfcElectricMotor" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcElectricMotorType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Motor Eléctrico de Corriente Continua"/>
+		<IFCType IFCObject="IfcElectricMotor" IFCObjectPredefinedType="DC" IFCTypeObject="IfcElectricMotorType" IFCTypeObjectPredefinedType="DC"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Motor Eléctrico de Inducción"/>
+		<IFCType IFCObject="IfcElectricMotor" IFCObjectPredefinedType="INDUCTION" IFCTypeObject="IfcElectricMotorType" IFCTypeObjectPredefinedType="INDUCTION"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Motor Eléctrico Polifásico"/>
+		<IFCType IFCObject="IfcElectricMotor" IFCObjectPredefinedType="POLYPHASE" IFCTypeObject="IfcElectricMotorType" IFCTypeObjectPredefinedType="POLYPHASE"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Motor Eléctrico Síncrono de Reluctancia"/>
+		<IFCType IFCObject="IfcElectricMotor" IFCObjectPredefinedType="RELUCTANCESYNCHRONOUS" IFCTypeObject="IfcElectricMotorType" IFCTypeObjectPredefinedType="RELUCTANCESYNCHRONOUS"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Motor Eléctrico Síncrono"/>
+		<IFCType IFCObject="IfcElectricMotor" IFCObjectPredefinedType="SYNCHRONOUS" IFCTypeObject="IfcElectricMotorType" IFCTypeObjectPredefinedType="SYNCHRONOUS"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Motor"/>
+		<IFCType IFCObject="IfcEngine" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcEngineType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Motor de Combustión Interna"/>
+		<IFCType IFCObject="IfcEngine" IFCObjectPredefinedType="INTERNALCOMBUSTION" IFCTypeObject="IfcEngineType" IFCTypeObjectPredefinedType="INTERNALCOMBUSTION"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Enfriador Evaporativo"/>
+		<IFCType IFCObject="IfcEvaporativeCooler" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcEvaporativeCoolerType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Lavadora de Aire por Evaporación Directa"/>
+		<IFCType IFCObject="IfcEvaporativeCooler" IFCObjectPredefinedType="DIRECTEVAPORATIVEAIRWASHER" IFCTypeObject="IfcEvaporativeCoolerType" IFCTypeObjectPredefinedType="DIRECTEVAPORATIVEAIRWASHER"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Refrigerador Rotatorio de Aire por Evaporación Directa"/>
+		<IFCType IFCObject="IfcEvaporativeCooler" IFCObjectPredefinedType="DIRECTEVAPORATIVEPACKAGEDROTARYAIRCOOLER" IFCTypeObject="IfcEvaporativeCoolerType" IFCTypeObjectPredefinedType="DIRECTEVAPORATIVEPACKAGEDROTARYAIRCOOLER"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Enfriador de Aire de Medios Aleatorios por Evaporación Directa"/>
+		<IFCType IFCObject="IfcEvaporativeCooler" IFCObjectPredefinedType="DIRECTEVAPORATIVERANDOMMEDIAAIRCOOLER" IFCTypeObject="IfcEvaporativeCoolerType" IFCTypeObjectPredefinedType="DIRECTEVAPORATIVERANDOMMEDIAAIRCOOLER"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Enfriador de Aire de Medios Rígidos por Evaporación Directa"/>
+		<IFCType IFCObject="IfcEvaporativeCooler" IFCObjectPredefinedType="DIRECTEVAPORATIVERIGIDMEDIAAIRCOOLER" IFCTypeObject="IfcEvaporativeCoolerType" IFCTypeObjectPredefinedType="DIRECTEVAPORATIVERIGIDMEDIAAIRCOOLER"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Enfriador de Aire de Evaporación Directa con Serpentín en Casco"/>
+		<IFCType IFCObject="IfcEvaporativeCooler" IFCObjectPredefinedType="DIRECTEVAPORATIVESLINGERSPACKAGEDAIRCOOLER" IFCTypeObject="IfcEvaporativeCoolerType" IFCTypeObjectPredefinedType="DIRECTEVAPORATIVESLINGERSPACKAGEDAIRCOOLER"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Combinación Directa Indirecta"/>
+		<IFCType IFCObject="IfcEvaporativeCooler" IFCObjectPredefinedType="INDIRECTDIRECTCOMBINATION" IFCTypeObject="IfcEvaporativeCoolerType" IFCTypeObjectPredefinedType="INDIRECTDIRECTCOMBINATION"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Torre de Enfriamiento por Evaporación Indirecta"/>
+		<IFCType IFCObject="IfcEvaporativeCooler" IFCObjectPredefinedType="INDIRECTEVAPORATIVECOOLINGTOWERORCOILCOOLER" IFCTypeObject="IfcEvaporativeCoolerType" IFCTypeObjectPredefinedType="INDIRECTEVAPORATIVECOOLINGTOWERORCOILCOOLER"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Enfriador de Aire por Evaporación Indirecta"/>
+		<IFCType IFCObject="IfcEvaporativeCooler" IFCObjectPredefinedType="INDIRECTEVAPORATIVEPACKAGEAIRCOOLER" IFCTypeObject="IfcEvaporativeCoolerType" IFCTypeObjectPredefinedType="INDIRECTEVAPORATIVEPACKAGEAIRCOOLER"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Bobina Húmeda por Evaporación Indirecta"/>
+		<IFCType IFCObject="IfcEvaporativeCooler" IFCObjectPredefinedType="INDIRECTEVAPORATIVEWETCOIL" IFCTypeObject="IfcEvaporativeCoolerType" IFCTypeObjectPredefinedType="INDIRECTEVAPORATIVEWETCOIL"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Evaporador"/>
+		<IFCType IFCObject="IfcEvaporator" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcEvaporatorType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Evaporador de Expansión Directa"/>
+		<IFCType IFCObject="IfcEvaporator" IFCObjectPredefinedType="DIRECTEXPANSION" IFCTypeObject="IfcEvaporatorType" IFCTypeObjectPredefinedType="DIRECTEXPANSION"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Evaporador de Expansión Directa de Placas Soldadas"/>
+		<IFCType IFCObject="IfcEvaporator" IFCObjectPredefinedType="DIRECTEXPANSIONBRAZEDPLATE" IFCTypeObject="IfcEvaporatorType" IFCTypeObjectPredefinedType="DIRECTEXPANSIONBRAZEDPLATE"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Evaporador de Expansión Directa de Carcasa y Tubos"/>
+		<IFCType IFCObject="IfcEvaporator" IFCObjectPredefinedType="DIRECTEXPANSIONSHELLANDTUBE" IFCTypeObject="IfcEvaporatorType" IFCTypeObjectPredefinedType="DIRECTEXPANSIONSHELLANDTUBE"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Tubo de Expansión Directa en Evaporador de Tubo"/>
+		<IFCType IFCObject="IfcEvaporator" IFCObjectPredefinedType="DIRECTEXPANSIONTUBEINTUBE" IFCTypeObject="IfcEvaporatorType" IFCTypeObjectPredefinedType="DIRECTEXPANSIONTUBEINTUBE"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Evaporador Inundado de Carcasa y Tubos"/>
+		<IFCType IFCObject="IfcEvaporator" IFCObjectPredefinedType="FLOODEDSHELLANDTUBE" IFCTypeObject="IfcEvaporatorType" IFCTypeObjectPredefinedType="FLOODEDSHELLANDTUBE"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Evaporador de Carcasa y Bobina"/>
+		<IFCType IFCObject="IfcEvaporator" IFCObjectPredefinedType="SHELLANDCOIL" IFCTypeObject="IfcEvaporatorType" IFCTypeObjectPredefinedType="SHELLANDCOIL"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Intercambiador de Calor"/>
+		<IFCType IFCObject="IfcHeatExchanger" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcHeatExchangerType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Intercambiador de Calor a Placas"/>
+		<IFCType IFCObject="IfcHeatExchanger" IFCObjectPredefinedType="PLATE" IFCTypeObject="IfcHeatExchangerType" IFCTypeObjectPredefinedType="PLATE"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Intercambiador de Calor de Carcasa y Tubos"/>
+		<IFCType IFCObject="IfcHeatExchanger" IFCObjectPredefinedType="SHELLANDTUBE" IFCTypeObject="IfcHeatExchangerType" IFCTypeObjectPredefinedType="SHELLANDTUBE"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Humidicador"/>
+		<IFCType IFCObject="IfcHumidifier" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcHumidifierType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Lavadora de Aire Adiabática"/>
+		<IFCType IFCObject="IfcHumidifier" IFCObjectPredefinedType="ADIABATICAIRWASHER" IFCTypeObject="IfcHumidifierType" IFCTypeObjectPredefinedType="ADIABATICAIRWASHER"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Humidificador Atomizador Adiabático"/>
+		<IFCType IFCObject="IfcHumidifier" IFCObjectPredefinedType="ADIABATICATOMIZING" IFCTypeObject="IfcHumidifierType" IFCTypeObjectPredefinedType="ADIABATICATOMIZING"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Boquilla de Aire Comprimido Adiabática"/>
+		<IFCType IFCObject="IfcHumidifier" IFCObjectPredefinedType="ADIABATICCOMPRESSEDAIRNOZZLE" IFCTypeObject="IfcHumidifierType" IFCTypeObjectPredefinedType="ADIABATICCOMPRESSEDAIRNOZZLE"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Cazuela Adiabática"/>
+		<IFCType IFCObject="IfcHumidifier" IFCObjectPredefinedType="ADIABATICPAN" IFCTypeObject="IfcHumidifierType" IFCTypeObjectPredefinedType="ADIABATICPAN"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Medios Rígidos Adiabáticos"/>
+		<IFCType IFCObject="IfcHumidifier" IFCObjectPredefinedType="ADIABATICRIGIDMEDIA" IFCTypeObject="IfcHumidifierType" IFCTypeObjectPredefinedType="ADIABATICRIGIDMEDIA"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Humidificador Ultrasónico Adiabático"/>
+		<IFCType IFCObject="IfcHumidifier" IFCObjectPredefinedType="ADIABATICULTRASONIC" IFCTypeObject="IfcHumidifierType" IFCTypeObjectPredefinedType="ADIABATICULTRASONIC"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Elemento Húmedo Adiabático"/>
+		<IFCType IFCObject="IfcHumidifier" IFCObjectPredefinedType="ADIABATICWETTEDELEMENT" IFCTypeObject="IfcHumidifierType" IFCTypeObjectPredefinedType="ADIABATICWETTEDELEMENT"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Humidificador de Butano Asistido"/>
+		<IFCType IFCObject="IfcHumidifier" IFCObjectPredefinedType="ASSISTEDBUTANE" IFCTypeObject="IfcHumidifierType" IFCTypeObjectPredefinedType="ASSISTEDBUTANE"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Humidificador Eléctrico Asistido"/>
+		<IFCType IFCObject="IfcHumidifier" IFCObjectPredefinedType="ASSISTEDELECTRIC" IFCTypeObject="IfcHumidifierType" IFCTypeObjectPredefinedType="ASSISTEDELECTRIC"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Humidificador Asistido de Gas Natural"/>
+		<IFCType IFCObject="IfcHumidifier" IFCObjectPredefinedType="ASSISTEDNATURALGAS" IFCTypeObject="IfcHumidifierType" IFCTypeObjectPredefinedType="ASSISTEDNATURALGAS"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Humidificador de Propano Asistido"/>
+		<IFCType IFCObject="IfcHumidifier" IFCObjectPredefinedType="ASSISTEDPROPANE" IFCTypeObject="IfcHumidifierType" IFCTypeObjectPredefinedType="ASSISTEDPROPANE"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Humidificador de Vapor Asistido"/>
+		<IFCType IFCObject="IfcHumidifier" IFCObjectPredefinedType="ASSISTEDSTEAM" IFCTypeObject="IfcHumidifierType" IFCTypeObjectPredefinedType="ASSISTEDSTEAM"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Humidificador por Inyección de Vapor"/>
+		<IFCType IFCObject="IfcHumidifier" IFCObjectPredefinedType="STEAMINJECTION" IFCTypeObject="IfcHumidifierType" IFCTypeObjectPredefinedType="STEAMINJECTION"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Conexión de Motor"/>
+		<IFCType IFCObject="IfcMotorConnection" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcMotorConnectionType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Conexión Motor de Transmisión por Correa"/>
+		<IFCType IFCObject="IfcMotorConnection" IFCObjectPredefinedType="BELTDRIVE" IFCTypeObject="IfcMotorConnectionType" IFCTypeObjectPredefinedType="BELTDRIVE"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Acoplamiento del Motor de Conexión"/>
+		<IFCType IFCObject="IfcMotorConnection" IFCObjectPredefinedType="COUPLING" IFCTypeObject="IfcMotorConnectionType" IFCTypeObjectPredefinedType="COUPLING"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Conexión Motor de Transmisión Directa"/>
+		<IFCType IFCObject="IfcMotorConnection" IFCObjectPredefinedType="DIRECTDRIVE" IFCTypeObject="IfcMotorConnectionType" IFCTypeObjectPredefinedType="DIRECTDRIVE"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Colector Solar"/>
+		<IFCType IFCObject="IfcSolarDevice" IFCObjectPredefinedType="SOLARCOLLECTOR" IFCTypeObject="IfcSolarDeviceType" IFCTypeObjectPredefinedType="SOLARCOLLECTOR"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Panel Solar"/>
+		<IFCType IFCObject="IfcSolarDevice" IFCObjectPredefinedType="SOLARPANEL" IFCTypeObject="IfcSolarDeviceType" IFCTypeObjectPredefinedType="SOLARPANEL"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Transformador"/>
+		<IFCType IFCObject="IfcTransformer" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcTransformerType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Transformador de Corriente"/>
+		<IFCType IFCObject="IfcTransformer" IFCObjectPredefinedType="CURRENT" IFCTypeObject="IfcTransformerType" IFCTypeObjectPredefinedType="CURRENT"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Transformador de Frecuencia"/>
+		<IFCType IFCObject="IfcTransformer" IFCObjectPredefinedType="FREQUENCY" IFCTypeObject="IfcTransformerType" IFCTypeObjectPredefinedType="FREQUENCY"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Transformador Inversor"/>
+		<IFCType IFCObject="IfcTransformer" IFCObjectPredefinedType="INVERTER" IFCTypeObject="IfcTransformerType" IFCTypeObjectPredefinedType="INVERTER"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Transformador Rectificador"/>
+		<IFCType IFCObject="IfcTransformer" IFCObjectPredefinedType="RECTIFIER" IFCTypeObject="IfcTransformerType" IFCTypeObjectPredefinedType="RECTIFIER"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Transformador de Voltaje"/>
+		<IFCType IFCObject="IfcTransformer" IFCObjectPredefinedType="VOLTAGE" IFCTypeObject="IfcTransformerType" IFCTypeObjectPredefinedType="VOLTAGE"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Haz de Tubos"/>
+		<IFCType IFCObject="IfcTubeBundle" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcTubeBundleType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Paquete de Tubos Aletados"/>
+		<IFCType IFCObject="IfcTubeBundle" IFCObjectPredefinedType="FINNED" IFCTypeObject="IfcTubeBundleType" IFCTypeObjectPredefinedType="FINNED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Equipo Unitario"/>
+		<IFCType IFCObject="IfcUnitaryEquipment" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcUnitaryEquipmentType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Unidad de Aire Acondicionado"/>
+		<IFCType IFCObject="IfcUnitaryEquipment" IFCObjectPredefinedType="AIRCONDITIONINGUNIT" IFCTypeObject="IfcUnitaryEquipmentType" IFCTypeObjectPredefinedType="AIRCONDITIONINGUNIT"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Aire Acondicionado"/>
+		<IFCType IFCObject="IfcUnitaryEquipment" IFCObjectPredefinedType="AIRHANDLER" IFCTypeObject="IfcUnitaryEquipmentType" IFCTypeObjectPredefinedType="AIRHANDLER"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Deshumidificador"/>
+		<IFCType IFCObject="IfcUnitaryEquipment" IFCObjectPredefinedType="DEHUMIDIFIER" IFCTypeObject="IfcUnitaryEquipmentType" IFCTypeObjectPredefinedType="DEHUMIDIFIER"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Unidad de Climatización de Tejado"/>
+		<IFCType IFCObject="IfcUnitaryEquipment" IFCObjectPredefinedType="ROOFTOPUNIT" IFCTypeObject="IfcUnitaryEquipmentType" IFCTypeObjectPredefinedType="ROOFTOPUNIT"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Sistema Split"/>
+		<IFCType IFCObject="IfcUnitaryEquipment" IFCObjectPredefinedType="SPLITSYSTEM" IFCTypeObject="IfcUnitaryEquipmentType" IFCTypeObjectPredefinedType="SPLITSYSTEM"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Caja de Salida de Aire"/>
+		<IFCType IFCObject="IfcAirTerminalBox" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcAirTerminalBoxType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Caja de Salida de Aire de Flujo Constante"/>
+		<IFCType IFCObject="IfcAirTerminalBox" IFCObjectPredefinedType="CONSTANTFLOW" IFCTypeObject="IfcAirTerminalBoxType" IFCTypeObjectPredefinedType="CONSTANTFLOW"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Caja de Terminales de Aire Dependiente de la Presión de Flujo Variable"/>
+		<IFCType IFCObject="IfcAirTerminalBox" IFCObjectPredefinedType="VARIABLEFLOWPRESSUREDEPENDANT" IFCTypeObject="IfcAirTerminalBoxType" IFCTypeObjectPredefinedType="VARIABLEFLOWPRESSUREDEPENDANT"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Caja de Terminales de Aire Independiente de la Presión de Flujo Variable"/>
+		<IFCType IFCObject="IfcAirTerminalBox" IFCObjectPredefinedType="VARIABLEFLOWPRESSUREINDEPENDANT" IFCTypeObject="IfcAirTerminalBoxType" IFCTypeObjectPredefinedType="VARIABLEFLOWPRESSUREINDEPENDANT"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Regulador de Aire"/>
+		<IFCType IFCObject="IfcDamper" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcDamperType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Damper de Tiro Trasero"/>
+		<IFCType IFCObject="IfcDamper" IFCObjectPredefinedType="BACKDRAFTDAMPER" IFCTypeObject="IfcDamperType" IFCTypeObjectPredefinedType="BACKDRAFTDAMPER"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Damper de Tiro de Mariposa"/>
+		<IFCType IFCObject="IfcDamper" IFCObjectPredefinedType="BALANCINGDAMPER" IFCTypeObject="IfcDamperType" IFCTypeObjectPredefinedType="BALANCINGDAMPER"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Regulador de Chorro"/>
+		<IFCType IFCObject="IfcDamper" IFCObjectPredefinedType="BLASTDAMPER" IFCTypeObject="IfcDamperType" IFCTypeObjectPredefinedType="BLASTDAMPER"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Compuerta de Regulación"/>
+		<IFCType IFCObject="IfcDamper" IFCObjectPredefinedType="CONTROLDAMPER" IFCTypeObject="IfcDamperType" IFCTypeObjectPredefinedType="CONTROLDAMPER"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Compuerta Cortafuegos"/>
+		<IFCType IFCObject="IfcDamper" IFCObjectPredefinedType="FIREDAMPER" IFCTypeObject="IfcDamperType" IFCTypeObjectPredefinedType="FIREDAMPER"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Compuerta de Humo de Fuego"/>
+		<IFCType IFCObject="IfcDamper" IFCObjectPredefinedType="FIRESMOKEDAMPER" IFCTypeObject="IfcDamperType" IFCTypeObjectPredefinedType="FIRESMOKEDAMPER"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Regulador de Tiro de Campana Extractora"/>
+		<IFCType IFCObject="IfcDamper" IFCObjectPredefinedType="FUMEHOODEXHAUST" IFCTypeObject="IfcDamperType" IFCTypeObjectPredefinedType="FUMEHOODEXHAUST"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Damper de Gravedad"/>
+		<IFCType IFCObject="IfcDamper" IFCObjectPredefinedType="GRAVITYDAMPER" IFCTypeObject="IfcDamperType" IFCTypeObjectPredefinedType="GRAVITYDAMPER"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Damper de Alivio de Gravedad"/>
+		<IFCType IFCObject="IfcDamper" IFCObjectPredefinedType="GRAVITYRELIEFDAMPER" IFCTypeObject="IfcDamperType" IFCTypeObjectPredefinedType="GRAVITYRELIEFDAMPER"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Damper de Alivio"/>
+		<IFCType IFCObject="IfcDamper" IFCObjectPredefinedType="RELIEFDAMPER" IFCTypeObject="IfcDamperType" IFCTypeObjectPredefinedType="RELIEFDAMPER"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Damper de Humos"/>
+		<IFCType IFCObject="IfcDamper" IFCObjectPredefinedType="SMOKEDAMPER" IFCTypeObject="IfcDamperType" IFCTypeObjectPredefinedType="SMOKEDAMPER"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Cuadro de Distribución Eléctrica"/>
+		<IFCType IFCObject="IfcElectricDistributionBoard" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcElectricDistributionBoardType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Unidad del Consumidor"/>
+		<IFCType IFCObject="IfcElectricDistributionBoard" IFCObjectPredefinedType="CONSUMERUNIT" IFCTypeObject="IfcElectricDistributionBoardType" IFCTypeObjectPredefinedType="CONSUMERUNIT"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Cuadro de Distribución"/>
+		<IFCType IFCObject="IfcElectricDistributionBoard" IFCObjectPredefinedType="DISTRIBUTIONBOARD" IFCTypeObject="IfcElectricDistributionBoardType" IFCTypeObjectPredefinedType="DISTRIBUTIONBOARD"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Centro de Control de Motor"/>
+		<IFCType IFCObject="IfcElectricDistributionBoard" IFCObjectPredefinedType="MOTORCONTROLCENTRE" IFCTypeObject="IfcElectricDistributionBoardType" IFCTypeObjectPredefinedType="MOTORCONTROLCENTRE"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Tablero de Interruptores"/>
+		<IFCType IFCObject="IfcElectricDistributionBoard" IFCObjectPredefinedType="SWITCHBOARD" IFCTypeObject="IfcElectricDistributionBoardType" IFCTypeObjectPredefinedType="SWITCHBOARD"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Control de Tiempo Eléctrico"/>
+		<IFCType IFCObject="IfcElectricTimeControl" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcElectricTimeControlType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Relé Temporizador Electrónico"/>
+		<IFCType IFCObject="IfcElectricTimeControl" IFCObjectPredefinedType="RELAY" IFCTypeObject="IfcElectricTimeControlType" IFCTypeObjectPredefinedType="RELAY"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Reloj de Control de Asistencia"/>
+		<IFCType IFCObject="IfcElectricTimeControl" IFCObjectPredefinedType="TIMECLOCK" IFCTypeObject="IfcElectricTimeControlType" IFCTypeObjectPredefinedType="TIMECLOCK"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Contador de Tiempo"/>
+		<IFCType IFCObject="IfcElectricTimeControl" IFCObjectPredefinedType="TIMEDELAY" IFCTypeObject="IfcElectricTimeControlType" IFCTypeObjectPredefinedType="TIMEDELAY"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Medidor de Flujo"/>
+		<IFCType IFCObject="IfcFlowMeter" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcFlowMeterType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Medidor de Energía"/>
+		<IFCType IFCObject="IfcFlowMeter" IFCObjectPredefinedType="ENERGYMETER" IFCTypeObject="IfcFlowMeterType" IFCTypeObjectPredefinedType="ENERGYMETER"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Contador de Gas"/>
+		<IFCType IFCObject="IfcFlowMeter" IFCObjectPredefinedType="GASMETER" IFCTypeObject="IfcFlowMeterType" IFCTypeObjectPredefinedType="GASMETER"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Medidor de Aceite"/>
+		<IFCType IFCObject="IfcFlowMeter" IFCObjectPredefinedType="OILMETER" IFCTypeObject="IfcFlowMeterType" IFCTypeObjectPredefinedType="OILMETER"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Medidor de Agua"/>
+		<IFCType IFCObject="IfcFlowMeter" IFCObjectPredefinedType="WATERMETER" IFCTypeObject="IfcFlowMeterType" IFCTypeObjectPredefinedType="WATERMETER"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Dispositivo de Protección"/>
+		<IFCType IFCObject="IfcProtectiveDevice" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcProtectiveDeviceType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Cortacircuitos"/>
+		<IFCType IFCObject="IfcProtectiveDevice" IFCObjectPredefinedType="CIRCUITBREAKER" IFCTypeObject="IfcProtectiveDeviceType" IFCTypeObjectPredefinedType="CIRCUITBREAKER"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Interruptor de Puesta a Tierra"/>
+		<IFCType IFCObject="IfcProtectiveDevice" IFCObjectPredefinedType="EARTHINGSWITCH" IFCTypeObject="IfcProtectiveDeviceType" IFCTypeObjectPredefinedType="EARTHINGSWITCH"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Interruptor de Circuito por Falla a Tierra"/>
+		<IFCType IFCObject="IfcProtectiveDevice" IFCObjectPredefinedType="EARTHLEAKAGECIRCUITBREAKER" IFCTypeObject="IfcProtectiveDeviceType" IFCTypeObjectPredefinedType="EARTHLEAKAGECIRCUITBREAKER"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Seccionador de Fusibles"/>
+		<IFCType IFCObject="IfcProtectiveDevice" IFCObjectPredefinedType="FUSEDISCONNECTOR" IFCTypeObject="IfcProtectiveDeviceType" IFCTypeObjectPredefinedType="FUSEDISCONNECTOR"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Disyuntor de Corriente Residual"/>
+		<IFCType IFCObject="IfcProtectiveDevice" IFCObjectPredefinedType="RESIDUALCURRENTCIRCUITBREAKER" IFCTypeObject="IfcProtectiveDeviceType" IFCTypeObjectPredefinedType="RESIDUALCURRENTCIRCUITBREAKER"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Interruptor de Corriente Residual"/>
+		<IFCType IFCObject="IfcProtectiveDevice" IFCObjectPredefinedType="RESIDUALCURRENTSWITCH" IFCTypeObject="IfcProtectiveDeviceType" IFCTypeObjectPredefinedType="RESIDUALCURRENTSWITCH"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Varistor"/>
+		<IFCType IFCObject="IfcProtectiveDevice" IFCObjectPredefinedType="VARISTOR" IFCTypeObject="IfcProtectiveDeviceType" IFCTypeObjectPredefinedType="VARISTOR"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Dispositivo de Conmutación"/>
+		<IFCType IFCObject="IfcSwitchingDevice" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcSwitchingDeviceType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Contactor"/>
+		<IFCType IFCObject="IfcSwitchingDevice" IFCObjectPredefinedType="CONTACTOR" IFCTypeObject="IfcSwitchingDeviceType" IFCTypeObjectPredefinedType="CONTACTOR"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Regulador de Intensidad"/>
+		<IFCType IFCObject="IfcSwitchingDevice" IFCObjectPredefinedType="DIMMERSWITCH" IFCTypeObject="IfcSwitchingDeviceType" IFCTypeObjectPredefinedType="DIMMERSWITCH"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Parada de Emergencia"/>
+		<IFCType IFCObject="IfcSwitchingDevice" IFCObjectPredefinedType="EMERGENCYSTOP" IFCTypeObject="IfcSwitchingDeviceType" IFCTypeObjectPredefinedType="EMERGENCYSTOP"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Teclado"/>
+		<IFCType IFCObject="IfcSwitchingDevice" IFCObjectPredefinedType="KEYPAD" IFCTypeObject="IfcSwitchingDeviceType" IFCTypeObjectPredefinedType="KEYPAD"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Interruptor Momentáneo"/>
+		<IFCType IFCObject="IfcSwitchingDevice" IFCObjectPredefinedType="MOMENTARYSWITCH" IFCTypeObject="IfcSwitchingDeviceType" IFCTypeObjectPredefinedType="MOMENTARYSWITCH"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Selector"/>
+		<IFCType IFCObject="IfcSwitchingDevice" IFCObjectPredefinedType="SELECTORSWITCH" IFCTypeObject="IfcSwitchingDeviceType" IFCTypeObjectPredefinedType="SELECTORSWITCH"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Motor de Arranque"/>
+		<IFCType IFCObject="IfcSwitchingDevice" IFCObjectPredefinedType="STARTER" IFCTypeObject="IfcSwitchingDeviceType" IFCTypeObjectPredefinedType="STARTER"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Interruptor Seccionador"/>
+		<IFCType IFCObject="IfcSwitchingDevice" IFCObjectPredefinedType="SWITCHDISCONNECTOR" IFCTypeObject="IfcSwitchingDeviceType" IFCTypeObjectPredefinedType="SWITCHDISCONNECTOR"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Interruptor de Palanca"/>
+		<IFCType IFCObject="IfcSwitchingDevice" IFCObjectPredefinedType="TOGGLESWITCH" IFCTypeObject="IfcSwitchingDeviceType" IFCTypeObjectPredefinedType="TOGGLESWITCH"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Válvula"/>
+		<IFCType IFCObject="IfcValve" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcValveType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Válvula de Liberación de Aire"/>
+		<IFCType IFCObject="IfcValve" IFCObjectPredefinedType="AIRRELEASE" IFCTypeObject="IfcValveType" IFCTypeObjectPredefinedType="AIRRELEASE"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Válvula Antivacío"/>
+		<IFCType IFCObject="IfcValve" IFCObjectPredefinedType="ANTIVACUUM" IFCTypeObject="IfcValveType" IFCTypeObjectPredefinedType="ANTIVACUUM"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Válvula de Cambio"/>
+		<IFCType IFCObject="IfcValve" IFCObjectPredefinedType="CHANGEOVER" IFCTypeObject="IfcValveType" IFCTypeObjectPredefinedType="CHANGEOVER"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Válvula de Retención"/>
+		<IFCType IFCObject="IfcValve" IFCObjectPredefinedType="CHECK" IFCTypeObject="IfcValveType" IFCTypeObjectPredefinedType="CHECK"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Válvula de Puesta en Marcha"/>
+		<IFCType IFCObject="IfcValve" IFCObjectPredefinedType="COMMISSIONING" IFCTypeObject="IfcValveType" IFCTypeObjectPredefinedType="COMMISSIONING"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Válvula de Desvío"/>
+		<IFCType IFCObject="IfcValve" IFCObjectPredefinedType="DIVERTING" IFCTypeObject="IfcValveType" IFCTypeObjectPredefinedType="DIVERTING"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Válvula de Retención Doble"/>
+		<IFCType IFCObject="IfcValve" IFCObjectPredefinedType="DOUBLECHECK" IFCTypeObject="IfcValveType" IFCTypeObjectPredefinedType="DOUBLECHECK"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Válvula de Doble Regulación"/>
+		<IFCType IFCObject="IfcValve" IFCObjectPredefinedType="DOUBLEREGULATING" IFCTypeObject="IfcValveType" IFCTypeObjectPredefinedType="DOUBLEREGULATING"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Válvula de Extracción de Martillo"/>
+		<IFCType IFCObject="IfcValve" IFCObjectPredefinedType="DRAWOFFCOCK" IFCTypeObject="IfcValveType" IFCTypeObjectPredefinedType="DRAWOFFCOCK"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Válvula de Grifo"/>
+		<IFCType IFCObject="IfcValve" IFCObjectPredefinedType="FAUCET" IFCTypeObject="IfcValveType" IFCTypeObjectPredefinedType="FAUCET"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Válvula de Descarga"/>
+		<IFCType IFCObject="IfcValve" IFCObjectPredefinedType="FLUSHING" IFCTypeObject="IfcValveType" IFCTypeObjectPredefinedType="FLUSHING"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Válvula de Gas"/>
+		<IFCType IFCObject="IfcValve" IFCObjectPredefinedType="GASCOCK" IFCTypeObject="IfcValveType" IFCTypeObjectPredefinedType="GASCOCK"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Llave de Paso de Gas"/>
+		<IFCType IFCObject="IfcValve" IFCObjectPredefinedType="GASTAP" IFCTypeObject="IfcValveType" IFCTypeObjectPredefinedType="GASTAP"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Válvula de Aislamiento"/>
+		<IFCType IFCObject="IfcValve" IFCObjectPredefinedType="ISOLATING" IFCTypeObject="IfcValveType" IFCTypeObjectPredefinedType="ISOLATING"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Válvula Mezcladora"/>
+		<IFCType IFCObject="IfcValve" IFCObjectPredefinedType="MIXING" IFCTypeObject="IfcValveType" IFCTypeObjectPredefinedType="MIXING"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Válvula de Reducción de Presión"/>
+		<IFCType IFCObject="IfcValve" IFCObjectPredefinedType="PRESSUREREDUCING" IFCTypeObject="IfcValveType" IFCTypeObjectPredefinedType="PRESSUREREDUCING"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Válvula de Alivio de Presión"/>
+		<IFCType IFCObject="IfcValve" IFCObjectPredefinedType="PRESSURERELIEF" IFCTypeObject="IfcValveType" IFCTypeObjectPredefinedType="PRESSURERELIEF"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Válvula de Regulación"/>
+		<IFCType IFCObject="IfcValve" IFCObjectPredefinedType="REGULATING" IFCTypeObject="IfcValveType" IFCTypeObjectPredefinedType="REGULATING"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Válvula de Corte de Seguridad"/>
+		<IFCType IFCObject="IfcValve" IFCObjectPredefinedType="SAFETYCUTOFF" IFCTypeObject="IfcValveType" IFCTypeObjectPredefinedType="SAFETYCUTOFF"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Válvula Trampa de Vapor"/>
+		<IFCType IFCObject="IfcValve" IFCObjectPredefinedType="STEAMTRAP" IFCTypeObject="IfcValveType" IFCTypeObjectPredefinedType="STEAMTRAP"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Válvula Llave de Paso"/>
+		<IFCType IFCObject="IfcValve" IFCObjectPredefinedType="STOPCOCK" IFCTypeObject="IfcValveType" IFCTypeObjectPredefinedType="STOPCOCK"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Unión de Bandeja de Cable"/>
+		<IFCType IFCObject="IfcCableCarrierFitting" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcCableCarrierFittingType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Unión Curva de Bandeja de Cable"/>
+		<IFCType IFCObject="IfcCableCarrierFitting" IFCObjectPredefinedType="BEND" IFCTypeObject="IfcCableCarrierFittingType" IFCTypeObjectPredefinedType="BEND"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Unión en Cruz de Bandeja de Cable"/>
+		<IFCType IFCObject="IfcCableCarrierFitting" IFCObjectPredefinedType="CROSS" IFCTypeObject="IfcCableCarrierFittingType" IFCTypeObjectPredefinedType="CROSS"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Adaptador de Soporte de Cable Reductor"/>
+		<IFCType IFCObject="IfcCableCarrierFitting" IFCObjectPredefinedType="REDUCER" IFCTypeObject="IfcCableCarrierFittingType" IFCTypeObjectPredefinedType="REDUCER"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Unión T de Bandeja de Cable"/>
+		<IFCType IFCObject="IfcCableCarrierFitting" IFCObjectPredefinedType="TEE" IFCTypeObject="IfcCableCarrierFittingType" IFCTypeObjectPredefinedType="TEE"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Conector Cable"/>
+		<IFCType IFCObject="IfcCableFitting" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcCableFittingType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Conexión del Cable Conector"/>
+		<IFCType IFCObject="IfcCableFitting" IFCObjectPredefinedType="CONNECTOR" IFCTypeObject="IfcCableFittingType" IFCTypeObjectPredefinedType="CONNECTOR"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Conector Entrada Cable"/>
+		<IFCType IFCObject="IfcCableFitting" IFCObjectPredefinedType="ENTRY" IFCTypeObject="IfcCableFittingType" IFCTypeObjectPredefinedType="ENTRY"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Conector Salida Cable"/>
+		<IFCType IFCObject="IfcCableFitting" IFCObjectPredefinedType="EXIT" IFCTypeObject="IfcCableFittingType" IFCTypeObjectPredefinedType="EXIT"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Conexión de Cables"/>
+		<IFCType IFCObject="IfcCableFitting" IFCObjectPredefinedType="JUNCTION" IFCTypeObject="IfcCableFittingType" IFCTypeObjectPredefinedType="JUNCTION"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Unión de Transición de Bandeja Portacables"/>
+		<IFCType IFCObject="IfcCableFitting" IFCObjectPredefinedType="TRANSITION" IFCTypeObject="IfcCableFittingType" IFCTypeObjectPredefinedType="TRANSITION"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Unión de Conducto"/>
+		<IFCType IFCObject="IfcDuctFitting" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcDuctFittingType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Unión Curva de Conducto"/>
+		<IFCType IFCObject="IfcDuctFitting" IFCObjectPredefinedType="BEND" IFCTypeObject="IfcDuctFittingType" IFCTypeObjectPredefinedType="BEND"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Conexión del Conducto Conector"/>
+		<IFCType IFCObject="IfcDuctFitting" IFCObjectPredefinedType="CONNECTOR" IFCTypeObject="IfcDuctFittingType" IFCTypeObjectPredefinedType="CONNECTOR"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Conector Entrada Conducto"/>
+		<IFCType IFCObject="IfcDuctFitting" IFCObjectPredefinedType="ENTRY" IFCTypeObject="IfcDuctFittingType" IFCTypeObjectPredefinedType="ENTRY"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Conector Salida Conducto"/>
+		<IFCType IFCObject="IfcDuctFitting" IFCObjectPredefinedType="EXIT" IFCTypeObject="IfcDuctFittingType" IFCTypeObjectPredefinedType="EXIT"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Conexión de Conductos"/>
+		<IFCType IFCObject="IfcDuctFitting" IFCObjectPredefinedType="JUNCTION" IFCTypeObject="IfcDuctFittingType" IFCTypeObjectPredefinedType="JUNCTION"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Conducto Anti Obstrucción"/>
+		<IFCType IFCObject="IfcDuctFitting" IFCObjectPredefinedType="OBSTRUCTION" IFCTypeObject="IfcDuctFittingType" IFCTypeObjectPredefinedType="OBSTRUCTION"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Unión de Transición de Conducto"/>
+		<IFCType IFCObject="IfcDuctFitting" IFCObjectPredefinedType="TRANSITION" IFCTypeObject="IfcDuctFittingType" IFCTypeObjectPredefinedType="TRANSITION"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Caja de Unión"/>
+		<IFCType IFCObject="IfcJunctionBox" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcJunctionBoxType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Caja de Conexiones de Datos"/>
+		<IFCType IFCObject="IfcJunctionBox" IFCObjectPredefinedType="DATA" IFCTypeObject="IfcJunctionBoxType" IFCTypeObjectPredefinedType="DATA"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Caja de Conexiones"/>
+		<IFCType IFCObject="IfcJunctionBox" IFCObjectPredefinedType="POWER" IFCTypeObject="IfcJunctionBoxType" IFCTypeObjectPredefinedType="POWER"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Unión de Tubo"/>
+		<IFCType IFCObject="IfcPipeFitting" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcPipeFittingType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Unión Curva de Tubo"/>
+		<IFCType IFCObject="IfcPipeFitting" IFCObjectPredefinedType="BEND" IFCTypeObject="IfcPipeFittingType" IFCTypeObjectPredefinedType="BEND"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Conexión del Tubo Conector"/>
+		<IFCType IFCObject="IfcPipeFitting" IFCObjectPredefinedType="CONNECTOR" IFCTypeObject="IfcPipeFittingType" IFCTypeObjectPredefinedType="CONNECTOR"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Conector Entrada Tubo"/>
+		<IFCType IFCObject="IfcPipeFitting" IFCObjectPredefinedType="ENTRY" IFCTypeObject="IfcPipeFittingType" IFCTypeObjectPredefinedType="ENTRY"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Conector Salida Tubo"/>
+		<IFCType IFCObject="IfcPipeFitting" IFCObjectPredefinedType="EXIT" IFCTypeObject="IfcPipeFittingType" IFCTypeObjectPredefinedType="EXIT"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Conexión de Tuberías"/>
+		<IFCType IFCObject="IfcPipeFitting" IFCObjectPredefinedType="JUNCTION" IFCTypeObject="IfcPipeFittingType" IFCTypeObjectPredefinedType="JUNCTION"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Tubería Anti Obstrucción"/>
+		<IFCType IFCObject="IfcPipeFitting" IFCObjectPredefinedType="OBSTRUCTION" IFCTypeObject="IfcPipeFittingType" IFCTypeObjectPredefinedType="OBSTRUCTION"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Unión de Transición de Tubo"/>
+		<IFCType IFCObject="IfcPipeFitting" IFCObjectPredefinedType="TRANSITION" IFCTypeObject="IfcPipeFittingType" IFCTypeObjectPredefinedType="TRANSITION"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Compresor"/>
+		<IFCType IFCObject="IfcCompressor" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcCompressorType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Compresor Booster"/>
+		<IFCType IFCObject="IfcCompressor" IFCObjectPredefinedType="BOOSTER" IFCTypeObject="IfcCompressorType" IFCTypeObjectPredefinedType="BOOSTER"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Compresor Dinámico"/>
+		<IFCType IFCObject="IfcCompressor" IFCObjectPredefinedType="DYNAMIC" IFCTypeObject="IfcCompressorType" IFCTypeObjectPredefinedType="DYNAMIC"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Compresor Hermético"/>
+		<IFCType IFCObject="IfcCompressor" IFCObjectPredefinedType="HERMETIC" IFCTypeObject="IfcCompressorType" IFCTypeObjectPredefinedType="HERMETIC"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Compresor de Tipo Abierto"/>
+		<IFCType IFCObject="IfcCompressor" IFCObjectPredefinedType="OPENTYPE" IFCTypeObject="IfcCompressorType" IFCTypeObjectPredefinedType="OPENTYPE"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Compresor Reciprocante"/>
+		<IFCType IFCObject="IfcCompressor" IFCObjectPredefinedType="RECIPROCATING" IFCTypeObject="IfcCompressorType" IFCTypeObjectPredefinedType="RECIPROCATING"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Compresor de Pistón Rotativo"/>
+		<IFCType IFCObject="IfcCompressor" IFCObjectPredefinedType="ROLLINGPISTON" IFCTypeObject="IfcCompressorType" IFCTypeObjectPredefinedType="ROLLINGPISTON"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Compresor Rotativo"/>
+		<IFCType IFCObject="IfcCompressor" IFCObjectPredefinedType="ROTARY" IFCTypeObject="IfcCompressorType" IFCTypeObjectPredefinedType="ROTARY"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Compresor de Paletas Rotativas"/>
+		<IFCType IFCObject="IfcCompressor" IFCObjectPredefinedType="ROTARYVANE" IFCTypeObject="IfcCompressorType" IFCTypeObjectPredefinedType="ROTARYVANE"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Compresor de Desplazamiento"/>
+		<IFCType IFCObject="IfcCompressor" IFCObjectPredefinedType="SCROLL" IFCTypeObject="IfcCompressorType" IFCTypeObjectPredefinedType="SCROLL"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Compresor Semi-Hermético"/>
+		<IFCType IFCObject="IfcCompressor" IFCObjectPredefinedType="SEMIHERMETIC" IFCTypeObject="IfcCompressorType" IFCTypeObjectPredefinedType="SEMIHERMETIC"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Compresor de Tornillo"/>
+		<IFCType IFCObject="IfcCompressor" IFCObjectPredefinedType="SINGLESCREW" IFCTypeObject="IfcCompressorType" IFCTypeObjectPredefinedType="SINGLESCREW"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Compresor de una Etapa"/>
+		<IFCType IFCObject="IfcCompressor" IFCObjectPredefinedType="SINGLESTAGE" IFCTypeObject="IfcCompressorType" IFCTypeObjectPredefinedType="SINGLESTAGE"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Compresor Trocoidal"/>
+		<IFCType IFCObject="IfcCompressor" IFCObjectPredefinedType="TROCHOIDAL" IFCTypeObject="IfcCompressorType" IFCTypeObjectPredefinedType="TROCHOIDAL"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Compresor de Tornillo de 2 Rotores"/>
+		<IFCType IFCObject="IfcCompressor" IFCObjectPredefinedType="TWINSCREW" IFCTypeObject="IfcCompressorType" IFCTypeObjectPredefinedType="TWINSCREW"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Compresor Hermético de Carcasa Soldada"/>
+		<IFCType IFCObject="IfcCompressor" IFCObjectPredefinedType="WELDEDSHELLHERMETIC" IFCTypeObject="IfcCompressorType" IFCTypeObjectPredefinedType="WELDEDSHELLHERMETIC"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Ventilador"/>
+		<IFCType IFCObject="IfcFan" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcFanType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Ventilador Centrífugo"/>
+		<IFCType IFCObject="IfcFan" IFCObjectPredefinedType="CENTRIFUGALAIRFOIL" IFCTypeObject="IfcFanType" IFCTypeObjectPredefinedType="CENTRIFUGALAIRFOIL"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Ventilador Curvado Inclinado Centrífugo Hacia Atrás"/>
+		<IFCType IFCObject="IfcFan" IFCObjectPredefinedType="CENTRIFUGALBACKWARDINCLINEDCURVED" IFCTypeObject="IfcFanType" IFCTypeObjectPredefinedType="CENTRIFUGALBACKWARDINCLINEDCURVED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Ventilador Curvado Centrífugo Hacia Adelante"/>
+		<IFCType IFCObject="IfcFan" IFCObjectPredefinedType="CENTRIFUGALFORWARDCURVED" IFCTypeObject="IfcFanType" IFCTypeObjectPredefinedType="CENTRIFUGALFORWARDCURVED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Ventilador Radial Centrífugo"/>
+		<IFCType IFCObject="IfcFan" IFCObjectPredefinedType="CENTRIFUGALRADIAL" IFCTypeObject="IfcFanType" IFCTypeObjectPredefinedType="CENTRIFUGALRADIAL"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Ventilador Axial de Hélices"/>
+		<IFCType IFCObject="IfcFan" IFCObjectPredefinedType="PROPELLORAXIAL" IFCTypeObject="IfcFanType" IFCTypeObjectPredefinedType="PROPELLORAXIAL"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Ventilador de Tubo Axial"/>
+		<IFCType IFCObject="IfcFan" IFCObjectPredefinedType="TUBEAXIAL" IFCTypeObject="IfcFanType" IFCTypeObjectPredefinedType="TUBEAXIAL"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Ventilador Axial de Pala"/>
+		<IFCType IFCObject="IfcFan" IFCObjectPredefinedType="VANEAXIAL" IFCTypeObject="IfcFanType" IFCTypeObjectPredefinedType="VANEAXIAL"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Bomba"/>
+		<IFCType IFCObject="IfcPump" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcPumpType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Bomba de Circulación"/>
+		<IFCType IFCObject="IfcPump" IFCObjectPredefinedType="CIRCULATOR" IFCTypeObject="IfcPumpType" IFCTypeObjectPredefinedType="CIRCULATOR"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Bomba de Succión Final"/>
+		<IFCType IFCObject="IfcPump" IFCObjectPredefinedType="ENDSUCTION" IFCTypeObject="IfcPumpType" IFCTypeObjectPredefinedType="ENDSUCTION"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Bomba de Cámara Partida"/>
+		<IFCType IFCObject="IfcPump" IFCObjectPredefinedType="SPLITCASE" IFCTypeObject="IfcPumpType" IFCTypeObjectPredefinedType="SPLITCASE"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Bomba Sumergible"/>
+		<IFCType IFCObject="IfcPump" IFCObjectPredefinedType="SUBMERSIBLEPUMP" IFCTypeObject="IfcPumpType" IFCTypeObjectPredefinedType="SUBMERSIBLEPUMP"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Bomba Sump"/>
+		<IFCType IFCObject="IfcPump" IFCObjectPredefinedType="SUMPPUMP" IFCTypeObject="IfcPumpType" IFCTypeObjectPredefinedType="SUMPPUMP"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Bomba en Línea Vertical"/>
+		<IFCType IFCObject="IfcPump" IFCObjectPredefinedType="VERTICALINLINE" IFCTypeObject="IfcPumpType" IFCTypeObjectPredefinedType="VERTICALINLINE"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Bomba de Turbina Vertical"/>
+		<IFCType IFCObject="IfcPump" IFCObjectPredefinedType="VERTICALTURBINE" IFCTypeObject="IfcPumpType" IFCTypeObjectPredefinedType="VERTICALTURBINE"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Segmento de Bandeja de Cable"/>
+		<IFCType IFCObject="IfcCableCarrierSegment" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcCableCarrierSegmentType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Segmento Bandeja Cable Rejilla"/>
+		<IFCType IFCObject="IfcCableCarrierSegment" IFCObjectPredefinedType="CABLELADDERSEGMENT" IFCTypeObject="IfcCableCarrierSegmentType" IFCTypeObjectPredefinedType="CABLELADDERSEGMENT"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Segmento Bandeja de Cable"/>
+		<IFCType IFCObject="IfcCableCarrierSegment" IFCObjectPredefinedType="CABLETRAYSEGMENT" IFCTypeObject="IfcCableCarrierSegmentType" IFCTypeObjectPredefinedType="CABLETRAYSEGMENT"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Segmento de Pasacables"/>
+		<IFCType IFCObject="IfcCableCarrierSegment" IFCObjectPredefinedType="CABLETRUNKINGSEGMENT" IFCTypeObject="IfcCableCarrierSegmentType" IFCTypeObjectPredefinedType="CABLETRUNKINGSEGMENT"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Segmento del Conducto"/>
+		<IFCType IFCObject="IfcCableCarrierSegment" IFCObjectPredefinedType="CONDUITSEGMENT" IFCTypeObject="IfcCableCarrierSegmentType" IFCTypeObjectPredefinedType="CONDUITSEGMENT"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Segmento de Cable"/>
+		<IFCType IFCObject="IfcCableSegment" IFCObjectPredefinedType="CABLESEGMENT" IFCTypeObject="IfcCableSegmentType" IFCTypeObjectPredefinedType="CABLESEGMENT"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Segmento de Barra"/>
+		<IFCType IFCObject="IfcCableSegment" IFCObjectPredefinedType="BUSBARSEGMENT" IFCTypeObject="IfcCableSegmentType" IFCTypeObjectPredefinedType="BUSBARSEGMENT"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Segmento Conductor"/>
+		<IFCType IFCObject="IfcCableSegment" IFCObjectPredefinedType="CONDUCTORSEGMENT" IFCTypeObject="IfcCableSegmentType" IFCTypeObjectPredefinedType="CONDUCTORSEGMENT"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Segmento Central"/>
+		<IFCType IFCObject="IfcCableSegment" IFCObjectPredefinedType="CORESEGMENT" IFCTypeObject="IfcCableSegmentType" IFCTypeObjectPredefinedType="CORESEGMENT"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Segmento de Conducto"/>
+		<IFCType IFCObject="IfcDuctSegment" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcDuctSegmentType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Segmento de Conducto Flexible"/>
+		<IFCType IFCObject="IfcDuctSegment" IFCObjectPredefinedType="FLEXIBLESEGMENT" IFCTypeObject="IfcDuctSegmentType" IFCTypeObjectPredefinedType="FLEXIBLESEGMENT"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Segmento de Conducto Rígido"/>
+		<IFCType IFCObject="IfcDuctSegment" IFCObjectPredefinedType="RIGIDSEGMENT" IFCTypeObject="IfcDuctSegmentType" IFCTypeObjectPredefinedType="RIGIDSEGMENT"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Segmento de Tubo"/>
+		<IFCType IFCObject="IfcPipeSegment" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcPipeSegmentType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Alcantarilla"/>
+		<IFCType IFCObject="IfcPipeSegment" IFCObjectPredefinedType="CULVERT" IFCTypeObject="IfcPipeSegmentType" IFCTypeObjectPredefinedType="CULVERT"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Segmento de Tubo Flexible"/>
+		<IFCType IFCObject="IfcPipeSegment" IFCObjectPredefinedType="FLEXIBLESEGMENT" IFCTypeObject="IfcPipeSegmentType" IFCTypeObjectPredefinedType="FLEXIBLESEGMENT"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Segmento Tubo Canalón"/>
+		<IFCType IFCObject="IfcPipeSegment" IFCObjectPredefinedType="GUTTER" IFCTypeObject="IfcPipeSegmentType" IFCTypeObjectPredefinedType="GUTTER"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Segmento de Tubo Rígido"/>
+		<IFCType IFCObject="IfcPipeSegment" IFCObjectPredefinedType="RIGIDSEGMENT" IFCTypeObject="IfcPipeSegmentType" IFCTypeObjectPredefinedType="RIGIDSEGMENT"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Segmento de Tubo Prefabricado"/>
+		<IFCType IFCObject="IfcPipeSegment" IFCObjectPredefinedType="SPOOL" IFCTypeObject="IfcPipeSegmentType" IFCTypeObjectPredefinedType="SPOOL"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Dispositivo Almacenamiento de Flujo Eléctrico"/>
+		<IFCType IFCObject="IfcElectricFlowStorageDevice" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcElectricFlowStorageDeviceType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Batería"/>
+		<IFCType IFCObject="IfcElectricFlowStorageDevice" IFCObjectPredefinedType="BATTERY" IFCTypeObject="IfcElectricFlowStorageDeviceType" IFCTypeObjectPredefinedType="BATTERY"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Batería de Condensadores"/>
+		<IFCType IFCObject="IfcElectricFlowStorageDevice" IFCObjectPredefinedType="CAPACITORBANK" IFCTypeObject="IfcElectricFlowStorageDeviceType" IFCTypeObjectPredefinedType="CAPACITORBANK"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Filtro Armónico"/>
+		<IFCType IFCObject="IfcElectricFlowStorageDevice" IFCObjectPredefinedType="HARMONICFILTER" IFCTypeObject="IfcElectricFlowStorageDeviceType" IFCTypeObjectPredefinedType="HARMONICFILTER"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Banco de Carga Inductivo"/>
+		<IFCType IFCObject="IfcElectricFlowStorageDevice" IFCObjectPredefinedType="INDUCTORBANK" IFCTypeObject="IfcElectricFlowStorageDeviceType" IFCTypeObjectPredefinedType="INDUCTORBANK"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="SAI"/>
+		<IFCType IFCObject="IfcElectricFlowStorageDevice" IFCObjectPredefinedType="UPS" IFCTypeObject="IfcElectricFlowStorageDeviceType" IFCTypeObjectPredefinedType="UPS"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Depósito"/>
+		<IFCType IFCObject="IfcTank" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcTankType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Sumidero Tanque"/>
+		<IFCType IFCObject="IfcTank" IFCObjectPredefinedType="BASIN" IFCTypeObject="IfcTankType" IFCTypeObjectPredefinedType="BASIN"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Tanque de Presión"/>
+		<IFCType IFCObject="IfcTank" IFCObjectPredefinedType="BREAKPRESSURE" IFCTypeObject="IfcTankType" IFCTypeObjectPredefinedType="BREAKPRESSURE"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Vaso de Expansión"/>
+		<IFCType IFCObject="IfcTank" IFCObjectPredefinedType="EXPANSION" IFCTypeObject="IfcTankType" IFCTypeObjectPredefinedType="EXPANSION"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Vaso de Alimentación y Expansión"/>
+		<IFCType IFCObject="IfcTank" IFCObjectPredefinedType="FEEDANDEXPANSION" IFCTypeObject="IfcTankType" IFCTypeObjectPredefinedType="FEEDANDEXPANSION"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Tanque de Almacenamiento a Presión"/>
+		<IFCType IFCObject="IfcTank" IFCObjectPredefinedType="PRESSUREVESSEL" IFCTypeObject="IfcTankType" IFCTypeObjectPredefinedType="PRESSUREVESSEL"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Depósito de Almacenamiento"/>
+		<IFCType IFCObject="IfcTank" IFCObjectPredefinedType="STORAGE" IFCTypeObject="IfcTankType" IFCTypeObjectPredefinedType="STORAGE"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Tanque de Almacenamiento"/>
+		<IFCType IFCObject="IfcTank" IFCObjectPredefinedType="VESSEL" IFCTypeObject="IfcTankType" IFCTypeObjectPredefinedType="VESSEL"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Salida de Aire"/>
+		<IFCType IFCObject="IfcAirTerminal" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcAirTerminalType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Difusor"/>
+		<IFCType IFCObject="IfcAirTerminal" IFCObjectPredefinedType="DIFFUSER" IFCTypeObject="IfcAirTerminalType" IFCTypeObjectPredefinedType="DIFFUSER"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Rejilla"/>
+		<IFCType IFCObject="IfcAirTerminal" IFCObjectPredefinedType="GRILLE" IFCTypeObject="IfcAirTerminalType" IFCTypeObjectPredefinedType="GRILLE"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Lama"/>
+		<IFCType IFCObject="IfcAirTerminal" IFCObjectPredefinedType="LOUVRE" IFCTypeObject="IfcAirTerminalType" IFCTypeObjectPredefinedType="LOUVRE"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Registro"/>
+		<IFCType IFCObject="IfcAirTerminal" IFCObjectPredefinedType="REGISTER" IFCTypeObject="IfcAirTerminalType" IFCTypeObjectPredefinedType="REGISTER"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Aparato Audiovisual"/>
+		<IFCType IFCObject="IfcAudioVisualAppliance" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcAudioVisualApplianceType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Amplificador"/>
+		<IFCType IFCObject="IfcAudioVisualAppliance" IFCObjectPredefinedType="AMPLIFIER" IFCTypeObject="IfcAudioVisualApplianceType" IFCTypeObjectPredefinedType="AMPLIFIER"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Cámara"/>
+		<IFCType IFCObject="IfcAudioVisualAppliance" IFCObjectPredefinedType="CAMERA" IFCTypeObject="IfcAudioVisualApplianceType" IFCTypeObjectPredefinedType="CAMERA"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Monitor"/>
+		<IFCType IFCObject="IfcAudioVisualAppliance" IFCObjectPredefinedType="DISPLAY" IFCTypeObject="IfcAudioVisualApplianceType" IFCTypeObjectPredefinedType="DISPLAY"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Micrófono"/>
+		<IFCType IFCObject="IfcAudioVisualAppliance" IFCObjectPredefinedType="MICROPHONE" IFCTypeObject="IfcAudioVisualApplianceType" IFCTypeObjectPredefinedType="MICROPHONE"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Jugador"/>
+		<IFCType IFCObject="IfcAudioVisualAppliance" IFCObjectPredefinedType="PLAYER" IFCTypeObject="IfcAudioVisualApplianceType" IFCTypeObjectPredefinedType="PLAYER"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Proyector"/>
+		<IFCType IFCObject="IfcAudioVisualAppliance" IFCObjectPredefinedType="PROJECTOR" IFCTypeObject="IfcAudioVisualApplianceType" IFCTypeObjectPredefinedType="PROJECTOR"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Receptor"/>
+		<IFCType IFCObject="IfcAudioVisualAppliance" IFCObjectPredefinedType="RECEIVER" IFCTypeObject="IfcAudioVisualApplianceType" IFCTypeObjectPredefinedType="RECEIVER"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Altavoz"/>
+		<IFCType IFCObject="IfcAudioVisualAppliance" IFCObjectPredefinedType="SPEAKER" IFCTypeObject="IfcAudioVisualApplianceType" IFCTypeObjectPredefinedType="SPEAKER"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Interruptor"/>
+		<IFCType IFCObject="IfcAudioVisualAppliance" IFCObjectPredefinedType="SWITCHER" IFCTypeObject="IfcAudioVisualApplianceType" IFCTypeObjectPredefinedType="SWITCHER"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Teléfono"/>
+		<IFCType IFCObject="IfcAudioVisualAppliance" IFCObjectPredefinedType="TELEPHONE" IFCTypeObject="IfcAudioVisualApplianceType" IFCTypeObjectPredefinedType="TELEPHONE"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Sintonizador"/>
+		<IFCType IFCObject="IfcAudioVisualAppliance" IFCObjectPredefinedType="TUNER" IFCTypeObject="IfcAudioVisualApplianceType" IFCTypeObjectPredefinedType="TUNER"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Dispositivo de Comunicaciones"/>
+		<IFCType IFCObject="IfcCommunicationsAppliance" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcCommunicationsApplianceType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Antena"/>
+		<IFCType IFCObject="IfcCommunicationsAppliance" IFCObjectPredefinedType="ANTENNA" IFCTypeObject="IfcCommunicationsApplianceType" IFCTypeObjectPredefinedType="ANTENNA"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Computadora"/>
+		<IFCType IFCObject="IfcCommunicationsAppliance" IFCObjectPredefinedType="COMPUTER" IFCTypeObject="IfcCommunicationsApplianceType" IFCTypeObjectPredefinedType="COMPUTER"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Fax"/>
+		<IFCType IFCObject="IfcCommunicationsAppliance" IFCObjectPredefinedType="FAX" IFCTypeObject="IfcCommunicationsApplianceType" IFCTypeObjectPredefinedType="FAX"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Puerta de Enlace"/>
+		<IFCType IFCObject="IfcCommunicationsAppliance" IFCObjectPredefinedType="GATEWAY" IFCTypeObject="IfcCommunicationsApplianceType" IFCTypeObjectPredefinedType="GATEWAY"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Módem"/>
+		<IFCType IFCObject="IfcCommunicationsAppliance" IFCObjectPredefinedType="MODEM" IFCTypeObject="IfcCommunicationsApplianceType" IFCTypeObjectPredefinedType="MODEM"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Dispositivo de Red"/>
+		<IFCType IFCObject="IfcCommunicationsAppliance" IFCObjectPredefinedType="NETWORKAPPLIANCE" IFCTypeObject="IfcCommunicationsApplianceType" IFCTypeObjectPredefinedType="NETWORKAPPLIANCE"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Puente de Red"/>
+		<IFCType IFCObject="IfcCommunicationsAppliance" IFCObjectPredefinedType="NETWORKBRIDGE" IFCTypeObject="IfcCommunicationsApplianceType" IFCTypeObjectPredefinedType="NETWORKBRIDGE"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Concentrador de Red"/>
+		<IFCType IFCObject="IfcCommunicationsAppliance" IFCObjectPredefinedType="NETWORKHUB" IFCTypeObject="IfcCommunicationsApplianceType" IFCTypeObjectPredefinedType="NETWORKHUB"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Impresora"/>
+		<IFCType IFCObject="IfcCommunicationsAppliance" IFCObjectPredefinedType="PRINTER" IFCTypeObject="IfcCommunicationsApplianceType" IFCTypeObjectPredefinedType="PRINTER"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Repetidor"/>
+		<IFCType IFCObject="IfcCommunicationsAppliance" IFCObjectPredefinedType="REPEATER" IFCTypeObject="IfcCommunicationsApplianceType" IFCTypeObjectPredefinedType="REPEATER"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Enrutador"/>
+		<IFCType IFCObject="IfcCommunicationsAppliance" IFCObjectPredefinedType="ROUTER" IFCTypeObject="IfcCommunicationsApplianceType" IFCTypeObjectPredefinedType="ROUTER"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Escáner"/>
+		<IFCType IFCObject="IfcCommunicationsAppliance" IFCObjectPredefinedType="SCANNER" IFCTypeObject="IfcCommunicationsApplianceType" IFCTypeObjectPredefinedType="SCANNER"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Aparatos Eléctricos"/>
+		<IFCType IFCObject="IfcElectricAppliance" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcElectricApplianceType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Lavavajillas"/>
+		<IFCType IFCObject="IfcElectricAppliance" IFCObjectPredefinedType="DISHWASHER" IFCTypeObject="IfcElectricApplianceType" IFCTypeObjectPredefinedType="DISHWASHER"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Estufa Eléctrica"/>
+		<IFCType IFCObject="IfcElectricAppliance" IFCObjectPredefinedType="ELECTRICCOOKER" IFCTypeObject="IfcElectricApplianceType" IFCTypeObjectPredefinedType="ELECTRICCOOKER"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Chimenea Eléctrica de Pie"/>
+		<IFCType IFCObject="IfcElectricAppliance" IFCObjectPredefinedType="FREESTANDINGELECTRICHEATER" IFCTypeObject="IfcElectricApplianceType" IFCTypeObjectPredefinedType="FREESTANDINGELECTRICHEATER"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Ventilador de Pie"/>
+		<IFCType IFCObject="IfcElectricAppliance" IFCObjectPredefinedType="FREESTANDINGFAN" IFCTypeObject="IfcElectricApplianceType" IFCTypeObjectPredefinedType="FREESTANDINGFAN"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Enfriador de Agua de Pie"/>
+		<IFCType IFCObject="IfcElectricAppliance" IFCObjectPredefinedType="FREESTANDINGWATERCOOLER" IFCTypeObject="IfcElectricApplianceType" IFCTypeObjectPredefinedType="FREESTANDINGWATERCOOLER"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Calentador de Agua de Pie"/>
+		<IFCType IFCObject="IfcElectricAppliance" IFCObjectPredefinedType="FREESTANDINGWATERHEATER" IFCTypeObject="IfcElectricApplianceType" IFCTypeObjectPredefinedType="FREESTANDINGWATERHEATER"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Congelador"/>
+		<IFCType IFCObject="IfcElectricAppliance" IFCObjectPredefinedType="FREEZER" IFCTypeObject="IfcElectricApplianceType" IFCTypeObjectPredefinedType="FREEZER"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Nevera-Congelador"/>
+		<IFCType IFCObject="IfcElectricAppliance" IFCObjectPredefinedType="FRIDGE_FREEZER" IFCTypeObject="IfcElectricApplianceType" IFCTypeObjectPredefinedType="FRIDGE_FREEZER"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Secador de Manos"/>
+		<IFCType IFCObject="IfcElectricAppliance" IFCObjectPredefinedType="HANDDRYER" IFCTypeObject="IfcElectricApplianceType" IFCTypeObjectPredefinedType="HANDDRYER"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Máquina de Cocina"/>
+		<IFCType IFCObject="IfcElectricAppliance" IFCObjectPredefinedType="KITCHENMACHINE" IFCTypeObject="IfcElectricApplianceType" IFCTypeObjectPredefinedType="KITCHENMACHINE"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Microondas"/>
+		<IFCType IFCObject="IfcElectricAppliance" IFCObjectPredefinedType="MICROWAVE" IFCTypeObject="IfcElectricApplianceType" IFCTypeObjectPredefinedType="MICROWAVE"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Fotocopiadora"/>
+		<IFCType IFCObject="IfcElectricAppliance" IFCObjectPredefinedType="PHOTOCOPIER" IFCTypeObject="IfcElectricApplianceType" IFCTypeObjectPredefinedType="PHOTOCOPIER"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Refrigerador"/>
+		<IFCType IFCObject="IfcElectricAppliance" IFCObjectPredefinedType="REFRIGERATOR" IFCTypeObject="IfcElectricApplianceType" IFCTypeObjectPredefinedType="REFRIGERATOR"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Secadora"/>
+		<IFCType IFCObject="IfcElectricAppliance" IFCObjectPredefinedType="TUMBLEDRYER" IFCTypeObject="IfcElectricApplianceType" IFCTypeObjectPredefinedType="TUMBLEDRYER"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Máquina de Vending"/>
+		<IFCType IFCObject="IfcElectricAppliance" IFCObjectPredefinedType="VENDINGMACHINE" IFCTypeObject="IfcElectricApplianceType" IFCTypeObjectPredefinedType="VENDINGMACHINE"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Lavadora"/>
+		<IFCType IFCObject="IfcElectricAppliance" IFCObjectPredefinedType="WASHINGMACHINE" IFCTypeObject="IfcElectricApplianceType" IFCTypeObjectPredefinedType="WASHINGMACHINE"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Calentador Eléctrico"/>
+		<IFCType IFCObject="IfcSpaceHeater" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcSpaceHeaterType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Terminal de Extinción de Incendios"/>
+		<IFCType IFCObject="IfcFireSuppressionTerminal" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcFireSuppressionTerminalType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Toma Distribuidora de Caudal"/>
+		<IFCType IFCObject="IfcFireSuppressionTerminal" IFCObjectPredefinedType="BREECHINGINLET" IFCTypeObject="IfcFireSuppressionTerminalType" IFCTypeObjectPredefinedType="BREECHINGINLET"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Boca de Incendios"/>
+		<IFCType IFCObject="IfcFireSuppressionTerminal" IFCObjectPredefinedType="FIREHYDRANT" IFCTypeObject="IfcFireSuppressionTerminalType" IFCTypeObjectPredefinedType="FIREHYDRANT"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Carrete de Manguera"/>
+		<IFCType IFCObject="IfcFireSuppressionTerminal" IFCObjectPredefinedType="HOSEREEL" IFCTypeObject="IfcFireSuppressionTerminalType" IFCTypeObjectPredefinedType="HOSEREEL"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Rociador"/>
+		<IFCType IFCObject="IfcFireSuppressionTerminal" IFCObjectPredefinedType="SPRINKLER" IFCTypeObject="IfcFireSuppressionTerminalType" IFCTypeObjectPredefinedType="SPRINKLER"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Rociador Deflector"/>
+		<IFCType IFCObject="IfcFireSuppressionTerminal" IFCObjectPredefinedType="SPRINKLERDEFLECTOR" IFCTypeObject="IfcFireSuppressionTerminalType" IFCTypeObjectPredefinedType="SPRINKLERDEFLECTOR"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Terminal de Gas"/>
+		<IFCType IFCObject="IfcSpaceHeater" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcSpaceHeaterType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Lámpara"/>
+		<IFCType IFCObject="IfcLamp" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcLampType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Lámpara Compacta Fluorescente"/>
+		<IFCType IFCObject="IfcLamp" IFCObjectPredefinedType="COMPACTFLUORESCENT" IFCTypeObject="IfcLampType" IFCTypeObjectPredefinedType="COMPACTFLUORESCENT"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Lámpara Fluorescente"/>
+		<IFCType IFCObject="IfcLamp" IFCObjectPredefinedType="FLUORESCENT" IFCTypeObject="IfcLampType" IFCTypeObjectPredefinedType="FLUORESCENT"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Lámpara Halógena"/>
+		<IFCType IFCObject="IfcLamp" IFCObjectPredefinedType="HALOGEN" IFCTypeObject="IfcLampType" IFCTypeObjectPredefinedType="HALOGEN"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Lámpara de Mercurio de Alta Presión"/>
+		<IFCType IFCObject="IfcLamp" IFCObjectPredefinedType="HIGHPRESSUREMERCURY" IFCTypeObject="IfcLampType" IFCTypeObjectPredefinedType="HIGHPRESSUREMERCURY"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Lámpara de Sodio de Alta Presión"/>
+		<IFCType IFCObject="IfcLamp" IFCObjectPredefinedType="HIGHPRESSURESODIUM" IFCTypeObject="IfcLampType" IFCTypeObjectPredefinedType="HIGHPRESSURESODIUM"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Lámpara Led"/>
+		<IFCType IFCObject="IfcLamp" IFCObjectPredefinedType="LED" IFCTypeObject="IfcLampType" IFCTypeObjectPredefinedType="LED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Lámpara de Halogenuros Metálicos"/>
+		<IFCType IFCObject="IfcLamp" IFCObjectPredefinedType="METALHALIDE" IFCTypeObject="IfcLampType" IFCTypeObjectPredefinedType="METALHALIDE"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Lámpara Oled"/>
+		<IFCType IFCObject="IfcLamp" IFCObjectPredefinedType="OLED" IFCTypeObject="IfcLampType" IFCTypeObjectPredefinedType="OLED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Lámpara de Filamento de Tungsteno"/>
+		<IFCType IFCObject="IfcLamp" IFCObjectPredefinedType="TUNGSTENFILAMENT" IFCTypeObject="IfcLampType" IFCTypeObjectPredefinedType="TUNGSTENFILAMENT"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Aparato de Iluminación"/>
+		<IFCType IFCObject="IfcLightFixture" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcLightFixtureType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Fuente de Dirección"/>
+		<IFCType IFCObject="IfcLightFixture" IFCObjectPredefinedType="DIRECTIONSOURCE" IFCTypeObject="IfcLightFixtureType" IFCTypeObjectPredefinedType="DIRECTIONSOURCE"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Punto de Origen"/>
+		<IFCType IFCObject="IfcLightFixture" IFCObjectPredefinedType="POINTSOURCE" IFCTypeObject="IfcLightFixtureType" IFCTypeObjectPredefinedType="POINTSOURCE"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Iluminación de Seguridad"/>
+		<IFCType IFCObject="IfcLightFixture" IFCObjectPredefinedType="SECURITYLIGHTING" IFCTypeObject="IfcLightFixtureType" IFCTypeObjectPredefinedType="SECURITYLIGHTING"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Dispositivo Médico"/>
+		<IFCType IFCObject="IfcMedicalDevice" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcMedicalDeviceType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Estación de Aire"/>
+		<IFCType IFCObject="IfcMedicalDevice" IFCObjectPredefinedType="AIRSTATION" IFCTypeObject="IfcMedicalDeviceType" IFCTypeObjectPredefinedType="AIRSTATION"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Unidad de Alimentación de Aire"/>
+		<IFCType IFCObject="IfcMedicalDevice" IFCObjectPredefinedType="FEEDAIRUNIT" IFCTypeObject="IfcMedicalDeviceType" IFCTypeObjectPredefinedType="FEEDAIRUNIT"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Generador de Oxígeno"/>
+		<IFCType IFCObject="IfcMedicalDevice" IFCObjectPredefinedType="OXYGENGENERATOR" IFCTypeObject="IfcMedicalDeviceType" IFCTypeObjectPredefinedType="OXYGENGENERATOR"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Planta de Oxígeno"/>
+		<IFCType IFCObject="IfcMedicalDevice" IFCObjectPredefinedType="OXYGENPLANT" IFCTypeObject="IfcMedicalDeviceType" IFCTypeObjectPredefinedType="OXYGENPLANT"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Estación de Vacío"/>
+		<IFCType IFCObject="IfcMedicalDevice" IFCObjectPredefinedType="VACUUMSTATION" IFCTypeObject="IfcMedicalDeviceType" IFCTypeObjectPredefinedType="VACUUMSTATION"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Tomas"/>
+		<IFCType IFCObject="IfcOutlet" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcOutletType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Toma de Audiovisual"/>
+		<IFCType IFCObject="IfcOutlet" IFCObjectPredefinedType="AUDIOVISUALOUTLET" IFCTypeObject="IfcOutletType" IFCTypeObjectPredefinedType="AUDIOVISUALOUTLET"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Toma de Comunicaciones"/>
+		<IFCType IFCObject="IfcOutlet" IFCObjectPredefinedType="COMMUNICATIONSOUTLET" IFCTypeObject="IfcOutletType" IFCTypeObjectPredefinedType="COMMUNICATIONSOUTLET"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Toma de Datos"/>
+		<IFCType IFCObject="IfcOutlet" IFCObjectPredefinedType="DATAOUTLET" IFCTypeObject="IfcOutletType" IFCTypeObjectPredefinedType="DATAOUTLET"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Toma de Corriente"/>
+		<IFCType IFCObject="IfcOutlet" IFCObjectPredefinedType="POWEROUTLET" IFCTypeObject="IfcOutletType" IFCTypeObjectPredefinedType="POWEROUTLET"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Toma de Teléfono"/>
+		<IFCType IFCObject="IfcOutlet" IFCObjectPredefinedType="TELEPHONEOUTLET" IFCTypeObject="IfcOutletType" IFCTypeObjectPredefinedType="TELEPHONEOUTLET"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Terminal Sanitario"/>
+		<IFCType IFCObject="IfcSanitaryTerminal" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcSanitaryTerminalType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Baño"/>
+		<IFCType IFCObject="IfcSanitaryTerminal" IFCObjectPredefinedType="BATH" IFCTypeObject="IfcSanitaryTerminalType" IFCTypeObjectPredefinedType="BATH"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Bidet"/>
+		<IFCType IFCObject="IfcSanitaryTerminal" IFCObjectPredefinedType="BIDET" IFCTypeObject="IfcSanitaryTerminalType" IFCTypeObjectPredefinedType="BIDET"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Cisterna"/>
+		<IFCType IFCObject="IfcSanitaryTerminal" IFCObjectPredefinedType="CISTERN" IFCTypeObject="IfcSanitaryTerminalType" IFCTypeObjectPredefinedType="CISTERN"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Fuente de Agua"/>
+		<IFCType IFCObject="IfcSanitaryTerminal" IFCObjectPredefinedType="SANITARYFOUNTAIN" IFCTypeObject="IfcSanitaryTerminalType" IFCTypeObjectPredefinedType="SANITARYFOUNTAIN"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Ducha"/>
+		<IFCType IFCObject="IfcSanitaryTerminal" IFCObjectPredefinedType="SHOWER" IFCTypeObject="IfcSanitaryTerminalType" IFCTypeObjectPredefinedType="SHOWER"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Lavabo"/>
+		<IFCType IFCObject="IfcSanitaryTerminal" IFCObjectPredefinedType="SINK" IFCTypeObject="IfcSanitaryTerminalType" IFCTypeObjectPredefinedType="SINK"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Taza WC"/>
+		<IFCType IFCObject="IfcSanitaryTerminal" IFCObjectPredefinedType="TOILETPAN" IFCTypeObject="IfcSanitaryTerminalType" IFCTypeObjectPredefinedType="TOILETPAN"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Urinario"/>
+		<IFCType IFCObject="IfcSanitaryTerminal" IFCObjectPredefinedType="URINAL" IFCTypeObject="IfcSanitaryTerminalType" IFCTypeObjectPredefinedType="URINAL"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Lavamanos"/>
+		<IFCType IFCObject="IfcSanitaryTerminal" IFCObjectPredefinedType="WASHHANDBASIN" IFCTypeObject="IfcSanitaryTerminalType" IFCTypeObjectPredefinedType="WASHHANDBASIN"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Asiento WC"/>
+		<IFCType IFCObject="IfcSanitaryTerminal" IFCObjectPredefinedType="WCSEAT" IFCTypeObject="IfcSanitaryTerminalType" IFCTypeObjectPredefinedType="WCSEAT"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Terminal de Conexiones"/>
+		<IFCType IFCObject="IfcStackTerminal" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcStackTerminalType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Jaula de Pájaros"/>
+		<IFCType IFCObject="IfcStackTerminal" IFCObjectPredefinedType="BIRDCAGE" IFCTypeObject="IfcStackTerminalType" IFCTypeObjectPredefinedType="BIRDCAGE"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Capucha"/>
+		<IFCType IFCObject="IfcStackTerminal" IFCObjectPredefinedType="COWL" IFCTypeObject="IfcStackTerminalType" IFCTypeObjectPredefinedType="COWL"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Colector de Agua de Lluvia"/>
+		<IFCType IFCObject="IfcStackTerminal" IFCObjectPredefinedType="RAINWATERHOPPER" IFCTypeObject="IfcStackTerminalType" IFCTypeObjectPredefinedType="RAINWATERHOPPER"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Terminal de Residuos"/>
+		<IFCType IFCObject="IfcWasteTerminal" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcWasteTerminalType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Sumidero"/>
+		<IFCType IFCObject="IfcWasteTerminal" IFCObjectPredefinedType="FLOORTRAP" IFCTypeObject="IfcWasteTerminalType" IFCTypeObjectPredefinedType="FLOORTRAP"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Desagüe de Pavimento"/>
+		<IFCType IFCObject="IfcWasteTerminal" IFCObjectPredefinedType="FLOORWASTE" IFCTypeObject="IfcWasteTerminalType" IFCTypeObjectPredefinedType="FLOORWASTE"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Arqueta Sumidero"/>
+		<IFCType IFCObject="IfcWasteTerminal" IFCObjectPredefinedType="GULLYSUMP" IFCTypeObject="IfcWasteTerminalType" IFCTypeObjectPredefinedType="GULLYSUMP"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Sumidero Sifónico"/>
+		<IFCType IFCObject="IfcWasteTerminal" IFCObjectPredefinedType="GULLYTRAP" IFCTypeObject="IfcWasteTerminalType" IFCTypeObjectPredefinedType="GULLYTRAP"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Desagüe de Cubierta"/>
+		<IFCType IFCObject="IfcWasteTerminal" IFCObjectPredefinedType="ROOFDRAIN" IFCTypeObject="IfcWasteTerminalType" IFCTypeObjectPredefinedType="ROOFDRAIN"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Unidad de Eliminación de Residuos"/>
+		<IFCType IFCObject="IfcWasteTerminal" IFCObjectPredefinedType="WASTEDISPOSALUNIT" IFCTypeObject="IfcWasteTerminalType" IFCTypeObjectPredefinedType="WASTEDISPOSALUNIT"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Trampa de Residuos"/>
+		<IFCType IFCObject="IfcWasteTerminal" IFCObjectPredefinedType="WASTETRAP" IFCTypeObject="IfcWasteTerminalType" IFCTypeObjectPredefinedType="WASTETRAP"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Oval Plano"/>
+		<IFCType IFCObject="IfcDuctSilencer" IFCObjectPredefinedType="FLATOVAL" IFCTypeObject="IfcDuctSilencerType" IFCTypeObjectPredefinedType="FLATOVAL"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Rectangular"/>
+		<IFCType IFCObject="IfcDuctSilencer" IFCObjectPredefinedType="RECTANGULAR" IFCTypeObject="IfcDuctSilencerType" IFCTypeObjectPredefinedType="RECTANGULAR"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="De Ida y Vuelta"/>
+		<IFCType IFCObject="IfcDuctSilencer" IFCObjectPredefinedType="ROUND" IFCTypeObject="IfcDuctSilencerType" IFCTypeObjectPredefinedType="ROUND"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Filtro"/>
+		<IFCType IFCObject="IfcFilter" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcFilterType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Filtro de Partículas de Aire"/>
+		<IFCType IFCObject="IfcFilter" IFCObjectPredefinedType="AIRPARTICLEFILTER" IFCTypeObject="IfcFilterType" IFCTypeObjectPredefinedType="AIRPARTICLEFILTER"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Filtro de Aire Comprimido"/>
+		<IFCType IFCObject="IfcFilter" IFCObjectPredefinedType="COMPRESSEDAIRFILTER" IFCTypeObject="IfcFilterType" IFCTypeObjectPredefinedType="COMPRESSEDAIRFILTER"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Filtro de Olores"/>
+		<IFCType IFCObject="IfcFilter" IFCObjectPredefinedType="ODORFILTER" IFCTypeObject="IfcFilterType" IFCTypeObjectPredefinedType="ODORFILTER"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Filtro de Aceite"/>
+		<IFCType IFCObject="IfcFilter" IFCObjectPredefinedType="OILFILTER" IFCTypeObject="IfcFilterType" IFCTypeObjectPredefinedType="OILFILTER"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Filtro de Coladero"/>
+		<IFCType IFCObject="IfcFilter" IFCObjectPredefinedType="STRAINER" IFCTypeObject="IfcFilterType" IFCTypeObjectPredefinedType="STRAINER"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Filtro de Agua"/>
+		<IFCType IFCObject="IfcFilter" IFCObjectPredefinedType="WATERFILTER" IFCTypeObject="IfcFilterType" IFCTypeObjectPredefinedType="WATERFILTER"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Interceptor"/>
+		<IFCType IFCObject="IfcInterceptor" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcInterceptorType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Interceptor Ciclónico"/>
+		<IFCType IFCObject="IfcInterceptor" IFCObjectPredefinedType="CYCLONIC" IFCTypeObject="IfcInterceptorType" IFCTypeObjectPredefinedType="CYCLONIC"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Interceptor de Grasa"/>
+		<IFCType IFCObject="IfcInterceptor" IFCObjectPredefinedType="GREASE" IFCTypeObject="IfcInterceptorType" IFCTypeObjectPredefinedType="GREASE"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Interceptor de Aceite"/>
+		<IFCType IFCObject="IfcInterceptor" IFCObjectPredefinedType="OIL" IFCTypeObject="IfcInterceptorType" IFCTypeObjectPredefinedType="OIL"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="interceptor de Gasolina"/>
+		<IFCType IFCObject="IfcInterceptor" IFCObjectPredefinedType="PETROL" IFCTypeObject="IfcInterceptorType" IFCTypeObjectPredefinedType="PETROL"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Ascensor"/>
+		<IFCType IFCObject="IfcTransportElement" IFCObjectPredefinedType="ELEVATOR" IFCTypeObject="IfcTransportElementType" IFCTypeObjectPredefinedType="ELEVATOR"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Escalera Mecánica"/>
+		<IFCType IFCObject="IfcTransportElement" IFCObjectPredefinedType="ESCALATOR" IFCTypeObject="IfcTransportElementType" IFCTypeObjectPredefinedType="ESCALATOR"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Pasarela Móvil"/>
+		<IFCType IFCObject="IfcTransportElement" IFCObjectPredefinedType="MOVINGWALKWAY" IFCTypeObject="IfcTransportElementType" IFCTypeObjectPredefinedType="MOVINGWALKWAY"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Manivela"/>
+		<IFCType IFCObject="IfcTransportElement" IFCObjectPredefinedType="CRANEWAY" IFCTypeObject="IfcTransportElementType" IFCTypeObjectPredefinedType="CRANEWAY"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Mecanismo de Elevación"/>
+		<IFCType IFCObject="IfcTransportElement" IFCObjectPredefinedType="LIFTINGGEAR" IFCTypeObject="IfcTransportElementType" IFCTypeObjectPredefinedType="LIFTINGGEAR"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Elemento MEP"/>
+		<IFCType IFCObject="IfcBuildingElementProxy" IFCObjectPredefinedType="USERDEFINED" IFCObjectUserDefinedType="Distribution Element" IFCTypeObject="IfcBuildingElementProxyType" IFCTypeObjectPredefinedType="USERDEFINED" IFCTypeObjectUserDefinedType="Distribution Element"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Terreno"/>
+		<IFCType IFCObject="IfcGeographicElement" IFCObjectPredefinedType="TERRAIN" IFCTypeObject="IfcGeographicElementType" IFCTypeObjectPredefinedType="TERRAIN"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Solar"/>
+		<IFCType IFCObject="IfcSite" IFCObjectPredefinedType=""/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Elemento Geográfico"/>
+		<IFCType IFCObject="IfcGeographicElement" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcGeographicElementType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Geometría del Terreno"/>
+		<IFCType IFCObject="IfcSite" IFCObjectPredefinedType="" IFCObjectUserDefinedType="Site Geometry"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Flora &amp; Fauna"/>
+		<IFCType IFCObject="IfcGeographicElement" IFCObjectPredefinedType="USERDEFINED" IFCObjectUserDefinedType="Flora &amp; Fauna" IFCTypeObject="IfcGeographicElementType" IFCTypeObjectPredefinedType="USERDEFINED" IFCTypeObjectUserDefinedType="Flora &amp; Fauna"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Elemento de Construcción"/>
+		<IFCType IFCObject="IfcBuildingElementProxy" IFCObjectPredefinedType="USERDEFINED" IFCObjectUserDefinedType="Construction Element" IFCTypeObject="IfcBuildingElementProxyType" IFCTypeObjectPredefinedType="USERDEFINED" IFCTypeObjectUserDefinedType="Construction Element"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Decoración"/>
+		<IFCType IFCObject="IfcFurniture" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcFurnitureType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Controlador Flotante"/>
+		<IFCType IFCObject="IfcController" IFCObjectPredefinedType="FLOATING" IFCTypeObject="IfcControllerType" IFCTypeObjectPredefinedType="FLOATING"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Controlador Programable"/>
+		<IFCType IFCObject="IfcController" IFCObjectPredefinedType="PROGRAMMABLE" IFCTypeObject="IfcControllerType" IFCTypeObjectPredefinedType="PROGRAMMABLE"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Voltímetro de Cresta"/>
+		<IFCType IFCObject="IfcFlowInstrument" IFCObjectPredefinedType="VOLTMETER_PEAK" IFCTypeObject="IfcFlowInstrumentType" IFCTypeObjectPredefinedType="VOLTMETER_PEAK"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Termómetro"/>
+		<IFCType IFCObject="IfcFlowInstrument" IFCObjectPredefinedType="THERMOMETER" IFCTypeObject="IfcFlowInstrumentType" IFCTypeObjectPredefinedType="THERMOMETER"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Medidor de Factor de Potencia"/>
+		<IFCType IFCObject="IfcFlowInstrument" IFCObjectPredefinedType="POWERFACTORMETER" IFCTypeObject="IfcFlowInstrumentType" IFCTypeObjectPredefinedType="POWERFACTORMETER"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Sensor de CO"/>
+		<IFCType IFCObject="IfcSensor" IFCObjectPredefinedType="COSENSOR" IFCTypeObject="IfcSensorType" IFCTypeObjectPredefinedType="COSENSOR"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Dispositivo Solar"/>
+		<IFCType IFCObject="IfcSolarDevice" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcSolarDeviceType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Motor de Combustión Externa"/>
+		<IFCType IFCObject="IfcEngine" IFCObjectPredefinedType="EXTERNALCOMBUSTION" IFCTypeObject="IfcEngineType" IFCTypeObjectPredefinedType="EXTERNALCOMBUSTION"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Calentador"/>
+		<IFCType IFCObject="IfcSpaceHeater" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcSpaceHeaterType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Convector"/>
+		<IFCType IFCObject="IfcSpaceHeater" IFCObjectPredefinedType="CONVECTOR" IFCTypeObject="IfcSpaceHeaterType" IFCTypeObjectPredefinedType="CONVECTOR"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Radiador"/>
+		<IFCType IFCObject="IfcSpaceHeater" IFCObjectPredefinedType="RADIATOR" IFCTypeObject="IfcSpaceHeaterType" IFCTypeObjectPredefinedType="RADIATOR"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Silenciador de Conducto"/>
+		<IFCType IFCObject="IfcDuctSilencer" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcDuctSilencerType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Masas"/>
+		<IFCType IFCObject="IfcBuildingElementProxy" IFCObjectPredefinedType="USERDEFINED" IFCObjectUserDefinedType="Massing" IFCTypeObject="IfcBuildingElementProxyType" IFCTypeObjectPredefinedType="USERDEFINED" IFCTypeObjectUserDefinedType="Massing"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Elemento Civil"/>
+		<IFCType IFCObject="IfcCivilElement" IFCObjectPredefinedType="" IFCTypeObject="IfcCivilElementType" IFCTypeObjectPredefinedType=""/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Muro de Elementos"/>
+		<IFCType IFCObject="IfcWall" IFCObjectPredefinedType="ELEMENTEDWALL" IFCTypeObject="IfcWallType" IFCTypeObjectPredefinedType="ELEMENTEDWALL"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Panel Muro Cortina"/>
+		<IFCType IFCObject="IfcPlate" IFCObjectPredefinedType="CURTAIN_PANEL" IFCTypeObject="IfcPlateType" IFCTypeObjectPredefinedType="CURTAIN_PANEL"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Marco Muro Cortina"/>
+		<IFCType IFCObject="IfcMember" IFCObjectPredefinedType="MULLION" IFCTypeObject="IfcMemberType" IFCTypeObjectPredefinedType="MULLION"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Barandilla"/>
+		<IFCType IFCObject="IfcRailing" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcRailingType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Poste de Barandilla"/>
+		<IFCType IFCObject="IfcMember" IFCObjectPredefinedType="POST" IFCTypeObject="IfcMemberType" IFCTypeObjectPredefinedType="POST"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Panel de Barandilla"/>
+		<IFCType IFCObject="IfcMember" IFCObjectPredefinedType="PLATE" IFCTypeObject="IfcMemberType" IFCTypeObjectPredefinedType="PLATE"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Balaustrada"/>
+		<IFCType IFCObject="IfcRailing" IFCObjectPredefinedType="BALUSTRADE" IFCTypeObject="IfcRailingType" IFCTypeObjectPredefinedType="BALUSTRADE"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Barandal"/>
+		<IFCType IFCObject="IfcMember" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcMemberType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Pasamanos"/>
+		<IFCType IFCObject="IfcRailing" IFCObjectPredefinedType="HANDRAIL" IFCTypeObject="IfcRailingType" IFCTypeObjectPredefinedType="HANDRAIL"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Guardarraíl"/>
+		<IFCType IFCObject="IfcRailing" IFCObjectPredefinedType="GUARDRAIL" IFCTypeObject="IfcRailingType" IFCTypeObjectPredefinedType="GUARDRAIL"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Parte"/>
+		<IFCType IFCObject="IfcMember" IFCObjectPredefinedType="MEMBER" IFCTypeObject="IfcMemberType" IFCTypeObjectPredefinedType="MEMBER"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Espacio"/>
+		<IFCType IFCObject="IfcSpace" IFCObjectPredefinedType="SPACE" IFCTypeObject="IfcSpaceType" IFCTypeObjectPredefinedType="SPACE"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Espacio Exterior"/>
+		<IFCType IFCObject="IfcSpace" IFCObjectPredefinedType="EXTERNAL" IFCTypeObject="IfcSpaceType" IFCTypeObjectPredefinedType="EXTERNAL"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Espacio Aparcamiento"/>
+		<IFCType IFCObject="IfcSpace" IFCObjectPredefinedType="PARKING" IFCTypeObject="IfcSpaceType" IFCTypeObjectPredefinedType="PARKING"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Elementos"/>
+		<IFCType IFCObject="IfcBuildingElementProxy" IFCObjectPredefinedType="USERDEFINED" IFCObjectUserDefinedType="Elements" IFCTypeObject="IfcBuildingElementProxyType" IFCTypeObjectPredefinedType="USERDEFINED" IFCTypeObjectUserDefinedType="Elements"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Rebaje"/>
+		<IFCType IFCObject="IfcOpeningElement" IFCObjectPredefinedType="RECESS"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Abertura"/>
+		<IFCType IFCObject="IfcOpeningElement" IFCObjectPredefinedType="OPENING"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Espacio Interior"/>
+		<IFCType IFCObject="IfcSpace" IFCObjectPredefinedType="INTERNAL" IFCTypeObject="IfcSpaceType" IFCTypeObjectPredefinedType="INTERNAL"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Espacio de Acceso"/>
+		<IFCType IFCObject="IfcSpace" IFCObjectPredefinedType="INTERNAL" IFCTypeObject="IfcSpaceType" IFCTypeObjectPredefinedType="INTERNAL"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Espacio Comercial"/>
+		<IFCType IFCObject="IfcSpace" IFCObjectPredefinedType="INTERNAL" IFCTypeObject="IfcSpaceType" IFCTypeObjectPredefinedType="INTERNAL"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Espacio de Comunicación"/>
+		<IFCType IFCObject="IfcSpace" IFCObjectPredefinedType="INTERNAL" IFCTypeObject="IfcSpaceType" IFCTypeObjectPredefinedType="INTERNAL"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Espacio Cultural"/>
+		<IFCType IFCObject="IfcSpace" IFCObjectPredefinedType="INTERNAL" IFCTypeObject="IfcSpaceType" IFCTypeObjectPredefinedType="INTERNAL"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Espacio Educacional"/>
+		<IFCType IFCObject="IfcSpace" IFCObjectPredefinedType="INTERNAL" IFCTypeObject="IfcSpaceType" IFCTypeObjectPredefinedType="INTERNAL"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Espacio para Equipamiento"/>
+		<IFCType IFCObject="IfcSpace" IFCObjectPredefinedType="INTERNAL" IFCTypeObject="IfcSpaceType" IFCTypeObjectPredefinedType="INTERNAL"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Espacio Médico"/>
+		<IFCType IFCObject="IfcSpace" IFCObjectPredefinedType="INTERNAL" IFCTypeObject="IfcSpaceType" IFCTypeObjectPredefinedType="INTERNAL"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Espacio de Oficinas"/>
+		<IFCType IFCObject="IfcSpace" IFCObjectPredefinedType="INTERNAL" IFCTypeObject="IfcSpaceType" IFCTypeObjectPredefinedType="INTERNAL"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Espacio de Producción"/>
+		<IFCType IFCObject="IfcSpace" IFCObjectPredefinedType="INTERNAL" IFCTypeObject="IfcSpaceType" IFCTypeObjectPredefinedType="INTERNAL"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Espacio Recreativo"/>
+		<IFCType IFCObject="IfcSpace" IFCObjectPredefinedType="INTERNAL" IFCTypeObject="IfcSpaceType" IFCTypeObjectPredefinedType="INTERNAL"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Espacio de Investigación"/>
+		<IFCType IFCObject="IfcSpace" IFCObjectPredefinedType="INTERNAL" IFCTypeObject="IfcSpaceType" IFCTypeObjectPredefinedType="INTERNAL"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Espacio Residencial"/>
+		<IFCType IFCObject="IfcSpace" IFCObjectPredefinedType="INTERNAL" IFCTypeObject="IfcSpaceType" IFCTypeObjectPredefinedType="INTERNAL"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Espacio de Almacenamiento"/>
+		<IFCType IFCObject="IfcSpace" IFCObjectPredefinedType="INTERNAL" IFCTypeObject="IfcSpaceType" IFCTypeObjectPredefinedType="INTERNAL"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Transporte Espacial"/>
+		<IFCType IFCObject="IfcSpace" IFCObjectPredefinedType="INTERNAL" IFCTypeObject="IfcSpaceType" IFCTypeObjectPredefinedType="INTERNAL"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Espacio de Área General de Suelo"/>
+		<IFCType IFCObject="IfcSpace" IFCObjectPredefinedType="GFA" IFCTypeObject="IfcSpaceType" IFCTypeObjectPredefinedType="GFA"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Vano"/>
+		<IFCType IFCObject="IfcOpeningElement" IFCObjectPredefinedType="USERDEFINED" IFCObjectUserDefinedType="Empty Opening"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Toldo"/>
+		<IFCType IFCObject="IfcShadingDevice" IFCObjectPredefinedType="AWNING" IFCTypeObject="IfcShadingDeviceType" IFCTypeObjectPredefinedType="AWNING"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Persiana"/>
+		<IFCType IFCObject="IfcShadingDevice" IFCObjectPredefinedType="SHUTTER" IFCTypeObject="IfcShadingDeviceType" IFCTypeObjectPredefinedType="SHUTTER"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Dispositivo de Sombra"/>
+		<IFCType IFCObject="IfcShadingDevice" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcShadingDeviceType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Celosía"/>
+		<IFCType IFCObject="IfcShadingDevice" IFCObjectPredefinedType="JALOUSIE" IFCTypeObject="IfcShadingDeviceType" IFCTypeObjectPredefinedType="JALOUSIE"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Hueco Alcantarilla"/>
+		<IFCType IFCObject="IfcDistributionChamberElement" IFCObjectPredefinedType="MANHOLE" IFCTypeObject="IfcDistributionChamberElementType" IFCTypeObjectPredefinedType="MANHOLE"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Arqueta de Contador"/>
+		<IFCType IFCObject="IfcDistributionChamberElement" IFCObjectPredefinedType="METERCHAMBER" IFCTypeObject="IfcDistributionChamberElementType" IFCTypeObjectPredefinedType="METERCHAMBER"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Sump"/>
+		<IFCType IFCObject="IfcDistributionChamberElement" IFCObjectPredefinedType="SUMP" IFCTypeObject="IfcDistributionChamberElementType" IFCTypeObjectPredefinedType="SUMP"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Zanja"/>
+		<IFCType IFCObject="IfcDistributionChamberElement" IFCObjectPredefinedType="TRENCH" IFCTypeObject="IfcDistributionChamberElementType" IFCTypeObjectPredefinedType="TRENCH"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Cámara de Válvulas"/>
+		<IFCType IFCObject="IfcDistributionChamberElement" IFCObjectPredefinedType="VALVECHAMBER" IFCTypeObject="IfcDistributionChamberElementType" IFCTypeObjectPredefinedType="VALVECHAMBER"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Recuperación de Calor de Aire a Aire"/>
+		<IFCType IFCObject="IfcAirToAirHeatRecovery" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcAirToAirHeatRecoveryType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Quemador"/>
+		<IFCType IFCObject="IfcBurner" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcBurnerType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Condensador"/>
+		<IFCType IFCObject="IfcCondenser" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcCondenserType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Amperímetro"/>
+		<IFCType IFCObject="IfcFlowInstrument" IFCObjectPredefinedType="AMMETER" IFCTypeObject="IfcFlowInstrumentType" IFCTypeObjectPredefinedType="AMMETER"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Manómetro"/>
+		<IFCType IFCObject="IfcFlowInstrument" IFCObjectPredefinedType="PRESSUREGAUGE" IFCTypeObject="IfcFlowInstrumentType" IFCTypeObjectPredefinedType="PRESSUREGAUGE"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Panel de Control"/>
+		<IFCType IFCObject="IfcUnitaryControlElement" IFCObjectPredefinedType="CONTROLPANEL" IFCTypeObject="IfcUnitaryControlElementType" IFCTypeObjectPredefinedType="CONTROLPANEL"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Humidistato"/>
+		<IFCType IFCObject="IfcUnitaryControlElement" IFCObjectPredefinedType="HUMIDISTAT" IFCTypeObject="IfcUnitaryControlElementType" IFCTypeObjectPredefinedType="HUMIDISTAT"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Pozo de Inspección"/>
+		<IFCType IFCObject="IfcDistributionChamberElement" IFCObjectPredefinedType="INSPECTIONPIT" IFCTypeObject="IfcDistributionChamberElementType" IFCTypeObjectPredefinedType="INSPECTIONPIT"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Bobina"/>
+		<IFCType IFCObject="IfcCoil" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcCoilType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Torre de Refrigeración"/>
+		<IFCType IFCObject="IfcCoolingTower" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcCoolingTowerType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Elemento de Transporte"/>
+		<IFCType IFCObject="IfcTransportElement" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcTransportElementType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Controlador"/>
+		<IFCType IFCObject="IfcController" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcControllerType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Instrumento de Flujo"/>
+		<IFCType IFCObject="IfcFlowInstrument" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcFlowInstrumentType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Actuador Eléctrico"/>
+		<IFCType IFCObject="IfcActuator" IFCObjectPredefinedType="ELECTRICACTUATOR" IFCTypeObject="IfcActuatorType" IFCTypeObjectPredefinedType="ELECTRICACTUATOR"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Actuador Manual"/>
+		<IFCType IFCObject="IfcActuator" IFCObjectPredefinedType="HANDOPERATEDACTUATOR" IFCTypeObject="IfcActuatorType" IFCTypeObjectPredefinedType="HANDOPERATEDACTUATOR"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Actuador Hidráulico"/>
+		<IFCType IFCObject="IfcActuator" IFCObjectPredefinedType="HYDRAULICACTUATOR" IFCTypeObject="IfcActuatorType" IFCTypeObjectPredefinedType="HYDRAULICACTUATOR"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Actuador Neumático"/>
+		<IFCType IFCObject="IfcActuator" IFCObjectPredefinedType="PNEUMATICACTUATOR" IFCTypeObject="IfcActuatorType" IFCTypeObjectPredefinedType="PNEUMATICACTUATOR"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Actuador Termostático"/>
+		<IFCType IFCObject="IfcActuator" IFCObjectPredefinedType="THERMOSTATICACTUATOR" IFCTypeObject="IfcActuatorType" IFCTypeObjectPredefinedType="THERMOSTATICACTUATOR"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Alarma Campana"/>
+		<IFCType IFCObject="IfcAlarm" IFCObjectPredefinedType="BELL" IFCTypeObject="IfcAlarmType" IFCTypeObjectPredefinedType="BELL"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Alarma Botón Rotura Cristal"/>
+		<IFCType IFCObject="IfcAlarm" IFCObjectPredefinedType="BREAKGLASSBUTTON" IFCTypeObject="IfcAlarmType" IFCTypeObjectPredefinedType="BREAKGLASSBUTTON"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Luz de Alarma"/>
+		<IFCType IFCObject="IfcAlarm" IFCObjectPredefinedType="LIGHT" IFCTypeObject="IfcAlarmType" IFCTypeObjectPredefinedType="LIGHT"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Alarma Caja Palanca Manual"/>
+		<IFCType IFCObject="IfcAlarm" IFCObjectPredefinedType="MANUALPULLBOX" IFCTypeObject="IfcAlarmType" IFCTypeObjectPredefinedType="MANUALPULLBOX"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Alarma de Sirena"/>
+		<IFCType IFCObject="IfcAlarm" IFCObjectPredefinedType="SIREN" IFCTypeObject="IfcAlarmType" IFCTypeObjectPredefinedType="SIREN"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Alarma de Silbato"/>
+		<IFCType IFCObject="IfcAlarm" IFCObjectPredefinedType="WHISTLE" IFCTypeObject="IfcAlarmType" IFCTypeObjectPredefinedType="WHISTLE"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Alarma"/>
+		<IFCType IFCObject="IfcAlarm" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcAlarmType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Transmisor de Fuerza"/>
+		<IFCType IFCObject="IfcActuator" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcActuatorType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Dispositivo de Tratamiento de Flujo"/>
+		<IFCType IFCObject="IfcFilter" IFCObjectPredefinedType="USERDEFINED" IFCObjectUserDefinedType="Flow Treatment Device" IFCTypeObject="IfcFilterType" IFCTypeObjectPredefinedType="USERDEFINED" IFCTypeObjectUserDefinedType="Flow Treatment Device"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Terminal de Flujo"/>
+		<IFCType IFCObject="IfcSanitaryTerminal" IFCObjectPredefinedType="USERDEFINED" IFCObjectUserDefinedType="Flow Terminal" IFCTypeObject="IfcSanitaryTerminalType" IFCTypeObjectPredefinedType="USERDEFINED" IFCTypeObjectUserDefinedType="Flow Terminal"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Dispositivo de Almacenamiento de Flujo"/>
+		<IFCType IFCObject="IfcTank" IFCObjectPredefinedType="USERDEFINED" IFCObjectUserDefinedType="Flow Storage Device" IFCTypeObject="IfcTankType" IFCTypeObjectPredefinedType="USERDEFINED" IFCTypeObjectUserDefinedType="Flow Storage Device"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Segmento de Flujo"/>
+		<IFCType IFCObject="IfcPipeSegment" IFCObjectPredefinedType="USERDEFINED" IFCObjectUserDefinedType="Flow Segment" IFCTypeObject="IfcPipeSegmentType" IFCTypeObjectPredefinedType="USERDEFINED" IFCTypeObjectUserDefinedType="Flow Segment"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Dispositivo Móvil de Flujo"/>
+		<IFCType IFCObject="IfcPump" IFCObjectPredefinedType="USERDEFINED" IFCObjectUserDefinedType="Flow Moving Device" IFCTypeObject="IfcPumpType" IFCTypeObjectPredefinedType="USERDEFINED" IFCTypeObjectUserDefinedType="Flow Moving Device"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Sistema de Flujo"/>
+		<IFCType IFCObject="IfcPipeFitting" IFCObjectPredefinedType="USERDEFINED" IFCObjectUserDefinedType="Flow Fitting" IFCTypeObject="IfcPipeFittingType" IFCTypeObjectPredefinedType="USERDEFINED" IFCTypeObjectUserDefinedType="Flow Fitting"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Dispositivo Protector de Fallos"/>
+		<IFCType IFCObject="IfcProtectiveDeviceTrippingUnit" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcProtectiveDeviceTrippingUnitType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Sensor"/>
+		<IFCType IFCObject="IfcSensor" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcSensorType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Elemento de Control Unitario"/>
+		<IFCType IFCObject="IfcUnitaryControlElement" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcUnitaryControlElementType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Conducto Formado"/>
+		<IFCType IFCObject="IfcDistributionChamberElement" IFCObjectPredefinedType="FORMEDDUCT" IFCTypeObject="IfcDistributionChamberElementType" IFCTypeObjectPredefinedType="FORMEDDUCT"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Cámara de Inspección"/>
+		<IFCType IFCObject="IfcDistributionChamberElement" IFCObjectPredefinedType="INSPECTIONCHAMBER" IFCTypeObject="IfcDistributionChamberElementType" IFCTypeObjectPredefinedType="INSPECTIONCHAMBER"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Controlador de Flujo"/>
+		<IFCType IFCObject="IfcValve" IFCObjectPredefinedType="USERDEFINED" IFCObjectUserDefinedType="Flow Controller" IFCTypeObject="IfcValveType" IFCTypeObjectPredefinedType="USERDEFINED" IFCTypeObjectUserDefinedType="Flow Controller"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Dispositivo de Conversión de Energía"/>
+		<IFCType IFCObject="IfcTransformer" IFCObjectPredefinedType="USERDEFINED" IFCObjectUserDefinedType="Energy Conversion Device" IFCTypeObject="IfcTransformerType" IFCTypeObjectPredefinedType="USERDEFINED" IFCTypeObjectUserDefinedType="Energy Conversion Device"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Elemento de la Cámara de Distribución"/>
+		<IFCType IFCObject="IfcDistributionChamberElement" IFCObjectPredefinedType="NOTDEFINED" IFCTypeObject="IfcDistributionChamberElementType" IFCTypeObjectPredefinedType="NOTDEFINED"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Elemento de Flujo de Distribución"/>
+		<IFCType IFCObject="IfcDistributionFlowElement" IFCObjectPredefinedType="USERDEFINED" IFCObjectUserDefinedType="Distribution Flow Element" IFCTypeObject="IfcValveType" IFCTypeObjectPredefinedType="USERDEFINED" IFCTypeObjectUserDefinedType="Distribution Flow Element"/>
+	</MappingItem>
+	<MappingItem>
+		<ClassificationItem Id="Elemento de Control de Distribución"/>
+		<IFCType IFCObject="IfcDistributionControlElement" IFCObjectPredefinedType="USERDEFINED" IFCObjectUserDefinedType="Distribution Control Element" IFCTypeObject="IfcControllerType" IFCTypeObjectPredefinedType="USERDEFINED" IFCTypeObjectUserDefinedType="Distribution Control Element"/>
+	</MappingItem>
+</IFCTypeMappingItemList>
