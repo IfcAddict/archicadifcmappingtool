@@ -1,8 +1,3 @@
-Aquí tienes una descripción clara y profesional para tu `README.md`, pensada para un repositorio público en GitHub que despliega una herramienta útil para usuarios de Archicad:
-
----
-
-````markdown
 # Archicad IfcMappingTool
 
 Conversor de Mapeo de Tipos IFC para Archicad
