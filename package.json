@@ -12,7 +12,7 @@
     "preview": "vite preview",
     "format": "prettier --write ."
   },
-  "homepage": "https://ifcaddict.github.io/archicadifcmappingtool",
+  "homepage": "https://archicadifcmappingtool.ifcaddict.com",
   "dependencies": {
     "lucide-react": "^0.525.0",
     "react": "^19.1.0",

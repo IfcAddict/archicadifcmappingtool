@@ -40,7 +40,7 @@ npm run deploy
 ## 🌐 Acceso
 
 Puedes probar la aplicación directamente en:
-👉 [https://ifcaddict.github.io/archicadifcmappingtool](https://ifcaddict.github.io/archicadifcmappingtool)
+👉 [https://archicadifcmappingtool.ifcaddict.com](https://archicadifcmappingtool.ifcaddict.com)
 
 ## 📁 Estructura del proyecto
 
